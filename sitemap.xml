@@ -54,6 +54,7 @@
   <url><loc>https://andproe.github.io/trend-reader/terms/alignment-evaluation.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/ambient-ai.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/anthropic-ipo.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://andproe.github.io/trend-reader/terms/antitrust-exemption.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/arc-agi-3.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/artificial-analysis-index.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/automated-alignment-research.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
@@ -78,6 +79,7 @@
   <url><loc>https://andproe.github.io/trend-reader/terms/claude-code.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/claude-fable-5-1.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/claude-opus-5.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://andproe.github.io/trend-reader/terms/claude-opus-5-5.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/closed-contributions.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/code-review.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/codex.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
@@ -127,12 +129,14 @@
   <url><loc>https://andproe.github.io/trend-reader/terms/gdpval.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/gemini-3-7-flash.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/gemini-3-8-flash.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://andproe.github.io/trend-reader/terms/generative-video.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/github-reliability.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/glm-5-3.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/glm-5-3-flash.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/goal-misgeneralization.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/gpt-5-6-sol.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/gpt-6-astra.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://andproe.github.io/trend-reader/terms/gpt-6-luna.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/gpu-access.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/grid-interconnection.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/grok-4-6.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
@@ -230,6 +234,7 @@
   <url><loc>https://andproe.github.io/trend-reader/terms/revenue-share-licenses.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/reward-hacking.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/rl-data-industry.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://andproe.github.io/trend-reader/terms/rlcd.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/rogue-deployment.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/rust.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://andproe.github.io/trend-reader/terms/sandbox-escape.html</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority></url>
