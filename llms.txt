@@ -10,6 +10,7 @@ Every term has a page with an executive explainer, a deeper dive, its relations 
 - [Reading paths](https://andproe.github.io/trend-reader/start.html): for investors, technologists and executives, foundational terms first
 - [Glossary](https://andproe.github.io/trend-reader/terms.html): every term, sortable by connectivity
 - [Weekly brief](https://andproe.github.io/trend-reader/research.html): the terms and themes to know this week, what moved in the graph, questions to research
+- [Categories](https://andproe.github.io/trend-reader/categories.html): the vocabulary grouped into twelve fields (models, training, agents, safety, evaluation, infrastructure, tooling, products, business, policy, work, society)
 - [Knowledge map](https://andproe.github.io/trend-reader/graph.html): the interactive graph
 - [About](https://andproe.github.io/trend-reader/about.html): method and author
 

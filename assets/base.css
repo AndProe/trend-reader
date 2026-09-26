@@ -738,3 +738,6 @@ details[open]>summary::before{transform:rotate(90deg)}
 .steps-list .step p{grid-column:2;margin-top:6px;color:var(--ink-2);font-size:.94rem;line-height:1.55;max-width:80ch}
 .steps-list .step .go{grid-column:2;margin-top:6px;text-decoration:none;font-weight:500;color:var(--link)}
 .steps-list .step .go:hover{text-decoration:underline}
+/* category hubs (2026-09-26) */
+.category-card h3{font-family:var(--font-display);font-weight:400;font-size:1.4rem;margin:2px 0 4px}
+.category-card p{color:var(--ink-2);font-size:.92rem}
