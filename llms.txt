@@ -7,6 +7,7 @@ Every term has a page with an executive explainer, a deeper dive, its relations 
 ## Start here
 
 - [Home](https://andproe.github.io/trend-reader/index.html): this week's new terms and the key terms to know
+- [Reading paths](https://andproe.github.io/trend-reader/start.html): for investors, technologists and executives, foundational terms first
 - [Glossary](https://andproe.github.io/trend-reader/terms.html): every term, sortable by connectivity
 - [Weekly brief](https://andproe.github.io/trend-reader/research.html): the terms and themes to know this week, what moved in the graph, questions to research
 - [Knowledge map](https://andproe.github.io/trend-reader/graph.html): the interactive graph
