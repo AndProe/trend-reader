@@ -712,3 +712,13 @@ details[open]>summary::before{transform:rotate(90deg)}
 .key-list a:hover{text-decoration:underline}
 .key-list .key-def{grid-column:2;color:var(--ink-2);font-size:.9rem;line-height:1.5;margin-top:3px}
 @media (max-width:767px){.key-list{grid-template-columns:1fr}}
+
+/* research: weekly brief (2026-09-26) */
+.brief .intro{max-width:76ch;color:var(--ink-2)}
+.brief-section{margin-top:28px}
+.brief-section>h3{font-family:var(--font-display);font-weight:400;font-size:1.5rem;margin:0 0 12px}
+.brief-terms .term-mini p{-webkit-line-clamp:5}
+.trends.themes .trend{grid-template-columns:32px minmax(0,1fr)}
+.trends.themes .trend p.full{display:block;-webkit-line-clamp:unset;overflow:visible;max-width:80ch}
+.brief .doc-body{max-width:80ch}
+.doc .brief-section>h3{font-size:1.2rem}
