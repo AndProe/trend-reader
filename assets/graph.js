@@ -245,9 +245,6 @@
       .map(function (k) { return '<div class="rel-row"><dt>' + REL_LABEL[k] + '</dt><dd>' + chips(t[k]) + '</dd></div>'; }).join('');
     var incoming = terms.filter(function (o) { return o.prerequisites.indexOf(t.id) >= 0; });
     if (incoming.length) rels += '<div class="rel-row"><dt>Needed by</dt><dd>' + chips(incoming.map(function (o) { return o.id; })) + '</dd></div>';
-    var usage = t.usage.map(function (u) {
-      return '<li>' + (u.author ? '<span class="who">' + esc(u.author) + ' <span class="dim">(' + esc(u.source) + ', ' + esc(u.date) + ')</span></span> ' : '') + '<span class="reading">' + u.readingHtml + '</span></li>';
-    }).join('');
     var ev = t.evidence.map(function (e) {
       return '<li><span class="mono dim">' + esc(e.date) + '</span> ' + (e.url ? '<a class="wl wl-post" href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.title) + '</a>' : esc(e.title)) + (e.author ? ' <span class="dim">· ' + esc(e.author) + '</span>' : '') + '</li>';
     }).join('');
@@ -258,8 +255,7 @@
       '<dt>rank</dt><dd>' + t.rank + ' <span class="dim">of ' + terms.length + ' · score ' + t.foundational + '</span></dd></dl>' +
       '<dl class="rels">' + rels + '</dl>' +
       '<div class="actions"><a class="btn" href="terms/' + t.id + '.html">Open the term page</a><button type="button" class="btn ghost" id="clear-sel">Clear selection</button></div>' +
-      (usage ? '<details><summary>How the sources use it</summary><ul class="usage">' + usage + '</ul></details>' : '') +
-      (ev ? '<details open><summary>Where it appears</summary><ul class="evidence">' + ev + '</ul></details>' : '');
+      (ev ? '<details><summary>Sample sources</summary><ul class="evidence">' + ev + '</ul></details>' : '');
     detail.scrollTop = 0;
   }
   detail.addEventListener('click', function (e) {
