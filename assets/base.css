@@ -175,7 +175,7 @@ a.card:hover{border-color:var(--ink-3);transform:translateY(-2px)}
 .tag.rising{background:var(--surface-2);color:var(--ink-2)}
 .queue-status{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
 .queue-status li{display:flex;gap:6px;align-items:center;font-size:.85rem}
-.cta{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:var(--space-5);margin-top:var(--space-8);padding:var(--space-6) var(--space-7);background:var(--hero-bg);color:var(--hero-ink);border-radius:var(--radius-lg);border-left:6px solid var(--cta)}
+.cta{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,380px);align-items:center;gap:var(--space-5);margin-top:var(--space-8);padding:var(--space-6) var(--space-7);background:var(--hero-bg);color:var(--hero-ink);border-radius:var(--radius-lg);border-left:6px solid var(--cta)}
 .cta .eyebrow{color:var(--hero-dim)}
 .cta h2{font-size:var(--text-2xl);margin:6px 0 8px}
 .cta p{color:var(--hero-dim);max-width:56ch;line-height:1.5}
@@ -183,6 +183,32 @@ a.card:hover{border-color:var(--ink-3);transform:translateY(-2px)}
 .cta.compact h2{font-size:var(--text-xl);margin:4px 0 6px}
 .cta.compact p{font-size:.92rem}
 .cta.compact .btn.lg{min-height:42px;padding:9px 18px;font-size:.95rem}
+.cta.compact{grid-template-columns:minmax(0,1fr) minmax(220px,300px)}
+.cta.compact .signup-role{display:none}
+/* early-access signup form (2026-09-27) */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+input[type=email]{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);font:inherit;font-size:.9rem}
+input[type=email]:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus) 18%,transparent)}
+.cta .field>span{color:var(--hero-dim)}
+.cta input[type=email],.cta select{background:var(--surface);color:var(--ink);border-color:transparent}
+.signup-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.signup-email{flex:1 1 180px;min-width:160px}
+.signup-role{flex:1 1 160px;min-width:150px}
+.signup-row .btn{flex:none}
+.signup-hp{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.signup-fine{margin:8px 0 0}
+.signup-frame{display:none;width:0;height:0;border:0}
+.cta.signup-error .signup-fine{color:var(--err,#e05252)}
+.cta .signup-done-msg{display:none}
+.cta.signup-done .signup-form{display:none}
+.cta.signup-done .signup-done-msg{display:block}
+.cta.signup-done .cta-text>h2,.cta.signup-done .cta-text>p{opacity:.001;height:0;overflow:hidden;margin:0;padding:0}
+.cta .signup-done-msg h2{font-size:var(--text-2xl);margin:6px 0 8px;color:var(--hero-ink)}
+.cta.compact .signup-done-msg h2{font-size:var(--text-xl);margin:4px 0 6px}
+.cta .signup-done-msg p{color:var(--hero-dim);max-width:56ch;line-height:1.5}
+.checklist{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.checklist li{padding-left:26px;position:relative;color:var(--ink-2);line-height:1.5}
+.checklist li::before{content:'✓';position:absolute;left:0;color:var(--cta);font-weight:700}
 .cat-bars{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
 .cat-bars li{display:grid;grid-template-columns:max-content minmax(0,1fr) auto;gap:12px;align-items:center;font-size:.84rem}
 .cat-name{display:flex;align-items:center;gap:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-2)}
@@ -671,6 +697,8 @@ details[open]>summary::before{transform:rotate(90deg)}
   .trend p{grid-column:1}
   .cta{grid-template-columns:1fr;padding:var(--space-5);margin-top:var(--space-7)}
   .cta .btn{justify-self:start}
+  .signup-row{flex-direction:column;align-items:stretch}
+  .signup-row .btn{width:100%}
   .tiles{grid-template-columns:repeat(3,1fr)}
   .content{padding:20px 16px 48px}
   .page{padding:22px 16px 48px}

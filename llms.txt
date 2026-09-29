@@ -13,6 +13,7 @@ Every term has a page with an executive explainer, a deeper dive, its relations 
 - [Categories](https://andproe.github.io/trend-reader/categories.html): the vocabulary grouped into twelve fields (models, training, agents, safety, evaluation, infrastructure, tooling, products, business, policy, work, society)
 - [Knowledge map](https://andproe.github.io/trend-reader/graph.html): the interactive graph
 - [About](https://andproe.github.io/trend-reader/about.html): method and author
+- [Get early access](https://andproe.github.io/trend-reader/subscribe.html): sign up for the newsletter (beta, not yet sending)
 
 ## Machine-readable
 

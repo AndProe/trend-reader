@@ -67,3 +67,42 @@ window.TR = (function () {
   }
   return { D: D, esc: esc, reveal: reveal, hashId: hashId };
 })();
+
+// Early-access signup: <form class="signup-form"> posts to a hidden iframe (no backend, no third-party JS).
+// This just watches the iframe's load event and toggles `signup-done` on the enclosing .cta, revealing the
+// pre-rendered thank-you copy already in the page (never built client-side). "Already joined" is a per-browser
+// localStorage convenience only, so a returning visitor does not see the form again; the Google Form the site
+// posts to is the actual record, not this flag.
+(function () {
+  var forms = Array.prototype.slice.call(document.querySelectorAll('.signup-form'));
+  if (!forms.length) return;
+  var frame = document.querySelector('iframe[name="tr-signup-frame"]');
+  var joined = false;
+  try { joined = localStorage.getItem('tr-signup') === '1'; } catch (e) {}
+  function markDone(form) {
+    var cta = form.closest('.cta');
+    if (cta) cta.classList.add('signup-done');
+  }
+  if (joined) forms.forEach(markDone);
+  var pending = null, timer = null;
+  forms.forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      var hp = form.querySelector('.signup-hp');
+      if (hp && hp.value) { e.preventDefault(); return; } // honeypot tripped: drop silently, no real submit
+      var btn = form.querySelector('button[type=submit]');
+      pending = form;
+      if (btn) btn.disabled = true;
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        if (pending === form) { pending = null; if (btn) btn.disabled = false; } // no response in time: let them retry
+      }, 8000);
+    });
+  });
+  if (frame) frame.addEventListener('load', function () {
+    if (!pending) return; // the iframe's own initial blank load, not a submission
+    clearTimeout(timer);
+    markDone(pending);
+    try { localStorage.setItem('tr-signup', '1'); } catch (e) {}
+    pending = null;
+  });
+})();
