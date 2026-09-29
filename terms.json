@@ -413,7 +413,8 @@
     "Token efficiency",
     "Enterprise agent tokens",
     "CPU pricing",
-    "CUDA moat"
+    "CUDA moat",
+    "SGLang"
    ]
   },
   {
@@ -2242,7 +2243,8 @@
     "Performance per watt",
     "Token efficiency",
     "Mixture of experts",
-    "Revenue per gigawatt"
+    "Revenue per gigawatt",
+    "SGLang"
    ]
   },
   {
@@ -3887,7 +3889,8 @@
     "Agentic inference workloads",
     "Jalapeno chip",
     "Interactivity versus throughput",
-    "CUDA moat"
+    "CUDA moat",
+    "SGLang"
    ]
   },
   {
@@ -4091,7 +4094,8 @@
     "Prefill-decode disaggregation",
     "Agentic inference workloads",
     "Sparse attention",
-    "DeepSeek V4.1 Flash"
+    "DeepSeek V4.1 Flash",
+    "SGLang"
    ]
   },
   {
@@ -4832,7 +4836,8 @@
     "Open model adoption metrics",
     "CyberGym",
     "Vision-language models",
-    "DeepSeek V4.1 Flash"
+    "DeepSeek V4.1 Flash",
+    "SGLang"
    ]
   },
   {
@@ -5309,7 +5314,8 @@
     "Agentic inference workloads",
     "Jalapeno chip",
     "Interactivity versus throughput",
-    "CUDA moat"
+    "CUDA moat",
+    "SGLang"
    ]
   },
   {
@@ -6047,6 +6053,29 @@
    ]
   },
   {
+   "id": "sglang",
+   "name": "SGLang",
+   "type": "product",
+   "category": "infrastructure",
+   "aliases": [],
+   "definition": "SGLang is an open-source serving engine for large language models, used both as a production inference runtime and as the reference stack that published serving benchmarks are measured on. It matters because the engine, not only the accelerator, decides throughput and cost per token, and an open engine makes those numbers comparable across hardware.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/sglang.html",
+   "prerequisites": [
+    "KV cache"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "InferenceX"
+   ],
+   "related": [
+    "Prefill-decode disaggregation",
+    "Sparse attention",
+    "Agentic inference workloads",
+    "Open weights models"
+   ]
+  },
+  {
    "id": "shadow-ai",
    "name": "Shadow AI",
    "type": "concept",
@@ -6304,7 +6333,8 @@
     "KV cache",
     "Mixture of experts",
     "Sovereign AI models",
-    "Qwen"
+    "Qwen",
+    "SGLang"
    ]
   },
   {
