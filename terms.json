@@ -6072,7 +6072,8 @@
     "Prefill-decode disaggregation",
     "Sparse attention",
     "Agentic inference workloads",
-    "Open weights models"
+    "Open weights models",
+    "Compute efficiency"
    ]
   },
   {
