@@ -173,8 +173,6 @@ a.card:hover{border-color:var(--ink-3);transform:translateY(-2px)}
 .tag{font-family:var(--font-mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;padding:2px 6px;border-radius:3px}
 .tag.new{background:var(--signal-soft);color:var(--signal)}
 .tag.rising{background:var(--surface-2);color:var(--ink-2)}
-.queue-status{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
-.queue-status li{display:flex;gap:6px;align-items:center;font-size:.85rem}
 .cta{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,380px);align-items:center;gap:var(--space-5);margin-top:var(--space-8);padding:var(--space-6) var(--space-7);background:var(--hero-bg);color:var(--hero-ink);border-radius:var(--radius-lg);border-left:6px solid var(--cta)}
 .cta .eyebrow{color:var(--hero-dim)}
 .cta h2{font-size:var(--text-2xl);margin:6px 0 8px}
@@ -257,7 +255,6 @@ a.tile:hover{background:var(--surface)}
 .map-teaser .btn{margin-top:8px;align-self:flex-start}
 .cat-figure{margin:0;min-width:0}
 .report-card .cross{margin-top:4px}
-.note-card-home .question{margin:0}
 .about-page{padding-top:var(--space-6);padding-bottom:var(--space-8);display:grid;gap:var(--space-7)}
 .about-page .hero{grid-template-columns:1.3fr 1fr;align-items:end}
 .about-page .hero h1{font-size:var(--text-3xl)}
@@ -330,9 +327,9 @@ a.chip:hover,button.chip:hover{border-color:var(--ink)}
 .k-business i{background:var(--k-business)} .k-policy i{background:var(--k-policy)} .k-work i{background:var(--k-work)} .k-society i{background:var(--k-society)} .k-uncategorised i{background:var(--k-uncategorised)}
 .badge[class*=" k-"],.badge[class^="k-"]{font-family:var(--font-body);text-transform:none;letter-spacing:0;font-size:.8rem}
 .status,.verdict,.access,.kind{display:inline-block;font-family:var(--font-mono);font-size:.68rem;padding:1px 7px;border-radius:3px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap;letter-spacing:.02em}
-.s-researched,.s-done,.v-note,.a-full{background:var(--ok-bg);color:var(--ok)}
-.s-researching,.a-partial{background:var(--warn-bg);color:var(--warn)}
-.s-dropped,.v-skip{color:var(--ink-3)}
+.v-note,.a-full{background:var(--ok-bg);color:var(--ok)}
+.a-partial{background:var(--warn-bg);color:var(--warn)}
+.v-skip{color:var(--ink-3)}
 .a-abstract{color:var(--ink-3)}
 .quality b{font-weight:600;color:var(--ink)}
 .rev{font-family:var(--font-mono);font-size:.66rem;padding:1px 6px;border-radius:3px;background:var(--warn-bg);color:var(--warn);text-transform:none;letter-spacing:0}
@@ -350,15 +347,6 @@ tr:last-child td{border-bottom:0}
 .tbl .notes{min-width:320px;max-width:640px;color:var(--ink-2);font-size:.85rem}
 .tbl .notes details summary{cursor:pointer;color:var(--ink-3)}
 
-/* ---------- tabs ---------- */
-.tabs{display:flex;flex-wrap:wrap;gap:0;margin-bottom:16px;border-bottom:1px solid var(--line)}
-.tab{position:relative;padding:8px 14px;border:0;background:transparent;cursor:pointer;color:var(--ink-2);font-size:.9rem;font-weight:500}
-.tab:hover{color:var(--ink)}
-.tab.active{color:var(--ink)}
-.tab.active::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--ink)}
-.tabs.big .tab{font-size:1rem;padding:10px 16px}
-.tabs.small{margin-bottom:8px}
-.tabs.small .tab{font-size:.78rem;padding:4px 10px}
 .toolbar{display:flex;align-items:center;gap:16px;margin:4px 0 14px}
 
 /* ---------- wikilinks ---------- */
@@ -464,16 +452,6 @@ details[open]>summary::before{transform:rotate(90deg)}
 .found-tbl tbody tr:hover{background:var(--surface-2)}
 .found-tbl .ibar{display:inline-block;height:8px;width:var(--w,0%);max-width:48px;background:var(--ink);border-radius:1px;margin-right:8px;vertical-align:middle;opacity:.55}
 .found-tbl td.num{white-space:nowrap}
-.note-card{display:grid;gap:8px;padding:16px 18px;border:1px solid var(--line);border-radius:6px;background:var(--surface);margin-top:10px;box-shadow:var(--shadow-sm)}
-.note-card h3{font-family:var(--font-display);font-weight:400;font-size:1.3rem}
-.note-card h3 a{text-decoration:none}
-.note-card h3 a:hover{text-decoration:underline}
-.note-card .btn{justify-self:start;font-size:.8rem;padding:5px 10px}
-.explain{max-width:82ch;color:var(--ink-2);display:grid;gap:8px;margin-bottom:16px;font-size:.93rem}
-.explain .status{vertical-align:baseline}
-.note-kv{grid-template-columns:auto 1fr;font-family:var(--font-body);font-size:.9rem}
-.note-kv dt{font-family:var(--font-mono);font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;padding-top:4px}
-.doc h4.sub{margin-top:16px}
 .detail h2{font-size:1.9rem;margin:8px 0 10px}
 .detail .def{font-size:.96rem;margin:8px 0}
 .detail .rels{margin-top:14px}
@@ -607,7 +585,6 @@ details[open]>summary::before{transform:rotate(90deg)}
 .graph-page .detail h2{font-family:var(--font-display);font-weight:400;font-size:1.8rem;text-transform:none;letter-spacing:-.005em;color:var(--ink)}
 .graph-page .found-tbl th{border-bottom-color:var(--line)}
 .graph-page .found-tbl .ibar{background:var(--accent)}
-.graph-page .note-card{background:var(--surface);box-shadow:none}
 .graph-page .btn{background:var(--surface);border-color:var(--line);color:var(--ink)}
 .graph-page .btn:hover{border-color:var(--ink-3)}
 .graph-page .chip{background:var(--surface);border-color:var(--line);color:var(--ink)}
@@ -746,8 +723,6 @@ details[open]>summary::before{transform:rotate(90deg)}
 .brief-section{margin-top:28px}
 .brief-section>h3{font-family:var(--font-display);font-weight:400;font-size:1.5rem;margin:0 0 12px}
 .brief-terms .term-mini p{-webkit-line-clamp:5}
-.trends.themes .trend{grid-template-columns:32px minmax(0,1fr)}
-.trends.themes .trend p.full{display:block;-webkit-line-clamp:unset;overflow:visible;max-width:80ch}
 .brief .doc-body{max-width:80ch}
 .doc .brief-section>h3{font-size:1.2rem}
 /* start here: reading paths (2026-09-26) */

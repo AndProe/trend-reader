@@ -205,20 +205,6 @@
       (i != null ? '<td class="num mono"><span class="ibar" style="--w:' + Math.round(100 * t.neededBy / maxNeeded) + '%"></span>' + t.neededBy + '</td>' : '<td><span class="dim small">' + esc(t.type) + '</span></td>') +
       '<td class="num mono">' + t.degree + '</td></tr>';
   }
-  function renderHome() {
-    var H = D.home || {};
-    document.getElementById('notes-home').innerHTML = (H.notes || []).map(function (n) {
-      return '<article class="note-card"><span class="eyebrow">' + esc(n.date) + (n.raisedIn ? ' · raised in ' + esc(n.raisedIn) : '') + '</span>' +
-        '<h3><a href="research.html#note-' + n.id + '">' + esc(n.topic) + '</a></h3>' +
-        (n.question ? '<p class="question">' + esc(n.question) + '</p>' : '') +
-        (n.summary ? '<p class="small">' + esc(n.summary) + '</p>' : '') +
-        '<p class="mono dim small">' + esc(n.status) + '</p>' +
-        '<a class="btn small" href="research.html#note-' + n.id + '">Read the note</a></article>';
-    }).join('') || '<p class="dim small">No research notes yet.</p>';
-    var q = H.queue || { total: 0, byStatus: {} };
-    var parts = Object.keys(q.byStatus).map(function (k) { return q.byStatus[k] + ' ' + k; });
-    document.getElementById('queue-home').innerHTML = '<a href="research.html#research-queue">' + q.total + ' topics in the Research Queue</a>' + (parts.length ? ' <span class="dim">(' + esc(parts.join(', ')) + ')</span>' : '');
-  }
   function renderFound() {
     var all = document.getElementById('found-all').checked;
     var rows = terms.filter(function (t) { return (all || CORE[t.type]) && t.foundational > 0; })
@@ -362,7 +348,6 @@
 
   // ---------- boot ----------
   renderFound();
-  renderHome();
   update();
   drawStrip();
   function onHash() {
