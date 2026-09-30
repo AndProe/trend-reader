@@ -385,6 +385,9 @@ details[open]>summary::before{transform:rotate(90deg)}
 .badges{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:10px}
 .term-main h1{font-size:var(--text-3xl);line-height:1.08;margin-bottom:10px}
 .term-main .meta{display:block;margin-bottom:var(--space-5)}
+.term-relations{margin-bottom:var(--space-6);padding:14px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);max-width:var(--w-content)}
+.term-relations .eyebrow{margin-bottom:8px}
+.term-relations .rels{margin-top:0}
 .lead{font-size:var(--text-lg);line-height:1.55;max-width:var(--w-prose)}
 .term-section{margin-top:var(--space-7)}
 .term-section h2{font-size:var(--text-xl);font-family:var(--font-body);font-weight:600;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
