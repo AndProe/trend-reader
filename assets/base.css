@@ -149,6 +149,9 @@ body.drawer-open .scrim{display:block}
 .section>.hint{margin-bottom:var(--space-4)}
 .grid{display:grid;gap:var(--space-4)}
 .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+#this-week-take .grid>div{padding:18px 20px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+#this-week-take .grid h3{font-size:1.05rem;font-weight:600;margin-bottom:8px}
+#this-week-take .doc-body{font-size:.95rem}
 .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
 .grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
 .card{position:relative;display:flex;flex-direction:column;gap:10px;min-width:0;padding:var(--space-5);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
@@ -204,6 +207,9 @@ input[type=email]:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 
 .cta .signup-done-msg h2{font-size:var(--text-2xl);margin:6px 0 8px;color:var(--hero-ink)}
 .cta.compact .signup-done-msg h2{font-size:var(--text-xl);margin:4px 0 6px}
 .cta .signup-done-msg p{color:var(--hero-dim);max-width:56ch;line-height:1.5}
+.cta .thanks-link{margin-top:10px}
+.cta .thanks-link a{color:var(--cta);font-weight:500;text-decoration:none}
+.cta .thanks-link a:hover{text-decoration:underline}
 .checklist{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .checklist li{padding-left:26px;position:relative;color:var(--ink-2);line-height:1.5}
 .checklist li::before{content:'✓';position:absolute;left:0;color:var(--cta);font-weight:700}
@@ -523,6 +529,10 @@ details[open]>summary::before{transform:rotate(90deg)}
 .hero-copy .eyebrow,.hero-copy .byline{color:var(--gc-dim)}
 .hero-copy h1{font-size:var(--text-display);line-height:1.02;letter-spacing:-.018em;margin:14px 0 18px;text-shadow:0 2px 24px rgba(9,12,21,.8)}
 .hero-copy .lede{color:#C9CFE0;font-size:var(--text-lg);line-height:1.55;max-width:52ch;text-shadow:0 1px 12px rgba(9,12,21,.9)}
+.hero-copy .hero-hook{margin-top:10px;font-size:1rem;text-shadow:0 1px 12px rgba(9,12,21,.9)}
+.hero-copy .hero-hook .eyebrow{color:var(--gc-dim);margin-right:6px}
+.hero-copy .hero-hook a{color:#F28A45;text-decoration:none;font-weight:500}
+.hero-copy .hero-hook a:hover{text-decoration:underline}
 .hero-copy .hero-actions{margin-top:var(--space-5);pointer-events:auto}
 .hero-copy .hero-actions .btn{pointer-events:auto}
 .hero-map .btn.ghost{color:var(--gc-ink);border-color:var(--gc-line);background:rgba(9,12,21,.55);backdrop-filter:blur(6px)}
