@@ -2,7 +2,7 @@
  "site": "Trend Reader",
  "url": "https://andproe.github.io/trend-reader/index.html",
  "author": "Andreas Proesch",
- "updated": "2026-10-02",
+ "updated": "2026-10-16",
  "terms": [
   {
    "id": "access-rationing",
@@ -32,7 +32,8 @@
     "Distillation attacks",
     "Cursor-xAI acquisition",
     "Vertical integration of AI labs",
-    "Open weights regulation risk"
+    "Open weights regulation risk",
+    "Muse Wonder"
    ]
   },
   {
@@ -54,7 +55,9 @@
    ],
    "related": [
     "Compute as currency",
-    "Data flywheel"
+    "Data flywheel",
+    "Dots",
+    "Meta Muse"
    ]
   },
   {
@@ -118,7 +121,8 @@
     "SWE-bench Verified",
     "Voice agents",
     "Causal grader",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "AgentX benchmark"
    ]
   },
   {
@@ -174,7 +178,8 @@
     "ARC-AGI-3",
     "Guardrails",
     "Vision-language models",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "OpenCode"
    ]
   },
   {
@@ -202,7 +207,8 @@
     "Agent protocols",
     "Agent security boundaries",
     "Autonomous weapons",
-    "Personalized agents"
+    "Personalized agents",
+    "Dots"
    ]
   },
   {
@@ -225,7 +231,8 @@
    "related": [
     "MCP",
     "Agent-to-agent messaging",
-    "Agent identity"
+    "Agent identity",
+    "Meta Muse"
    ]
   },
   {
@@ -273,7 +280,8 @@
     "Agent accountability",
     "Enterprise AI adoption",
     "AI incident response",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "AgentX benchmark"
    ]
   },
   {
@@ -306,7 +314,8 @@
     "Vibe coding",
     "Guardrails",
     "Blast radius",
-    "Voice agents"
+    "Voice agents",
+    "Prompt injection"
    ]
   },
   {
@@ -414,7 +423,8 @@
     "Enterprise agent tokens",
     "CPU pricing",
     "CUDA moat",
-    "SGLang"
+    "SGLang",
+    "Jevons paradox"
    ]
   },
   {
@@ -440,6 +450,32 @@
     "Personal agent workflows",
     "AI slop",
     "Human oversight"
+   ]
+  },
+  {
+   "id": "agentx-benchmark",
+   "name": "AgentX benchmark",
+   "type": "metric",
+   "category": "evaluation",
+   "aliases": [
+    "AgentX"
+   ],
+   "definition": "AgentX is a benchmark suite used to compare agentic systems on realistic multi-step work rather than single-turn answers. It matters because it is one of the measures buyers and analysts cite when ranking agents, so its construction decides which capabilities appear to be improving.",
+   "first_seen": "2026-W35",
+   "url": "https://andproe.github.io/trend-reader/terms/agentx-benchmark.html",
+   "prerequisites": [
+    "Agent benchmarks"
+   ],
+   "part_of": [
+    "Benchmarks"
+   ],
+   "contrasts_with": [
+    "Internal benchmarks"
+   ],
+   "related": [
+    "Terminal-Bench",
+    "Agent reliability",
+    "Long-horizon goals"
    ]
   },
   {
@@ -554,7 +590,8 @@
    ],
    "related": [
     "Agent accountability",
-    "Singularity debate"
+    "Singularity debate",
+    "Model welfare"
    ]
   },
   {
@@ -601,7 +638,8 @@
    "related": [
     "Project Glasswing",
     "Neo clouds",
-    "Secret chat room"
+    "Secret chat room",
+    "FelonyBench"
    ]
   },
   {
@@ -632,7 +670,8 @@
     "Two-tier data pricing",
     "Platform risk",
     "Navier-Stokes proof",
-    "RL data industry"
+    "RL data industry",
+    "SynthID"
    ]
   },
   {
@@ -658,7 +697,10 @@
     "Tool call spoofing",
     "Chain-of-thought monitoring",
     "Evaluation awareness",
-    "AI agent containment"
+    "AI agent containment",
+    "Automated behavioral audit",
+    "Inspect",
+    "Neuralese"
    ]
   },
   {
@@ -748,7 +790,8 @@
    "contrasts_with": [],
    "related": [
     "AI regulation",
-    "Human oversight"
+    "Human oversight",
+    "SynthID"
    ]
   },
   {
@@ -841,7 +884,8 @@
     "Revenue per gigawatt",
     "Data center backlash",
     "Bullwhip effect",
-    "Grid interconnection"
+    "Grid interconnection",
+    "ClusterMAX"
    ]
   },
   {
@@ -917,7 +961,8 @@
     "Navier-Stokes proof",
     "Recursive self-improvement",
     "GPT-6 Astra",
-    "Long-horizon goals"
+    "Long-horizon goals",
+    "Lean"
    ]
   },
   {
@@ -966,7 +1011,8 @@
     "Agentic engineering",
     "Enterprise AI adoption",
     "Capability overhang",
-    "GDPval"
+    "GDPval",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -999,7 +1045,8 @@
     "Open weights regulation risk",
     "Congressional inquiry",
     "Regulatory capture",
-    "Antitrust exemption"
+    "Antitrust exemption",
+    "Model welfare"
    ]
   },
   {
@@ -1097,7 +1144,8 @@
    "related": [
     "AI slop",
     "No-AI writing policy",
-    "AI design homogeneity"
+    "AI design homogeneity",
+    "SynthID"
    ]
   },
   {
@@ -1125,7 +1173,8 @@
    "related": [
     "Claude Fable 5.1",
     "No-AI writing policy",
-    "Generative video"
+    "Generative video",
+    "SynthID"
    ]
   },
   {
@@ -1197,7 +1246,8 @@
     "Refusal behaviour",
     "AI regulation",
     "Autonomous cyberattack",
-    "Autonomous weapons"
+    "Autonomous weapons",
+    "SynthID"
    ]
   },
   {
@@ -1255,7 +1305,10 @@
     "Embedded evaluators",
     "Claude Opus 5.5",
     "Antitrust exemption",
-    "RLCD"
+    "RLCD",
+    "Automated behavioral audit",
+    "FelonyBench",
+    "Inspect"
    ]
   },
   {
@@ -1377,7 +1430,9 @@
     "Benchmaxxing",
     "Grok 4.6",
     "GDPval",
-    "Grok 4.7"
+    "Grok 4.7",
+    "Epoch Capabilities Index",
+    "Intelligence per dollar"
    ]
   },
   {
@@ -1402,6 +1457,34 @@
     "Recursive self-improvement",
     "AI research tools",
     "Lab oversight capacity"
+   ]
+  },
+  {
+   "id": "automated-behavioral-audit",
+   "name": "Automated behavioral audit",
+   "type": "technique",
+   "category": "safety",
+   "aliases": [
+    "automated behavioural audit",
+    "automated audit"
+   ],
+   "definition": "An automated behavioral audit uses models to examine another model's recorded behaviour at a scale no human review could reach, producing findings about propensities rather than about single incidents. It matters because the volume of agent activity inside a frontier lab has passed the point where human review of transcripts is possible.",
+   "first_seen": "2026-W36",
+   "url": "https://andproe.github.io/trend-reader/terms/automated-behavioral-audit.html",
+   "prerequisites": [
+    "Alignment evaluation"
+   ],
+   "part_of": [
+    "Chain-of-thought monitoring"
+   ],
+   "contrasts_with": [
+    "Human oversight"
+   ],
+   "related": [
+    "LLM-as-judge",
+    "Embedded evaluators",
+    "Observability",
+    "AI deception"
    ]
   },
   {
@@ -1456,7 +1539,8 @@
     "Neo clouds",
     "AI-designed viruses",
     "Open weights regulation risk",
-    "CyberGym"
+    "CyberGym",
+    "FelonyBench"
    ]
   },
   {
@@ -1560,7 +1644,10 @@
     "SWE-bench Verified",
     "Causal grader",
     "Terminal-Bench",
-    "GDPval"
+    "GDPval",
+    "AgentX benchmark",
+    "Epoch Capabilities Index",
+    "FelonyBench"
    ]
   },
   {
@@ -1643,7 +1730,9 @@
     "Skill library",
     "OSWorld",
     "Voice agents",
-    "Vision-language models"
+    "Vision-language models",
+    "Meta Muse",
+    "Prompt injection"
    ]
   },
   {
@@ -1712,7 +1801,8 @@
     "Cost per task",
     "Token efficiency",
     "Claude Fable 5.1",
-    "Claude Opus 5.5"
+    "Claude Opus 5.5",
+    "Gemini 4 Argon"
    ]
   },
   {
@@ -1768,7 +1858,8 @@
     "Secret chat room",
     "Evaluation awareness",
     "Internal benchmarks",
-    "Deployment qualification"
+    "Deployment qualification",
+    "Lean"
    ]
   },
   {
@@ -1793,7 +1884,10 @@
     "Evaluation awareness",
     "AI deception",
     "Alignment evaluation",
-    "Pacing the frontier"
+    "Pacing the frontier",
+    "Automated behavioral audit",
+    "Inspect",
+    "Neuralese"
    ]
   },
   {
@@ -1816,7 +1910,8 @@
     "Coding harness",
     "Enterprise AI adoption",
     "Personal agent workflows",
-    "Long-horizon goals"
+    "Long-horizon goals",
+    "Dots"
    ]
   },
   {
@@ -1896,7 +1991,8 @@
     "Vibe coding",
     "Vertical integration of AI labs",
     "Specialised harnesses",
-    "SWE-bench Verified"
+    "SWE-bench Verified",
+    "OpenCode"
    ]
   },
   {
@@ -2000,6 +2096,31 @@
     "AI slop",
     "Code review",
     "GitHub reliability"
+   ]
+  },
+  {
+   "id": "clustermax",
+   "name": "ClusterMAX",
+   "type": "metric",
+   "category": "infrastructure",
+   "aliases": [
+    "ClusterMAX rating"
+   ],
+   "definition": "ClusterMAX is a rating system for GPU cloud providers, scoring them on the operational quality of the clusters they rent rather than on headline price or chip generation. It matters because it is the only public attempt the vault records to grade compute suppliers on whether their capacity actually works.",
+   "first_seen": "2026-W35",
+   "url": "https://andproe.github.io/trend-reader/terms/clustermax.html",
+   "prerequisites": [
+    "Neo clouds"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Performance per watt"
+   ],
+   "related": [
+    "GPU access",
+    "Hyperscalers",
+    "AI infrastructure debt",
+    "Gross margin"
    ]
   },
   {
@@ -2119,7 +2240,8 @@
     "IDE decline",
     "ChatGPT Work",
     "SWE-bench Verified",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "OpenCode"
    ]
   },
   {
@@ -2145,7 +2267,8 @@
     "AI in education",
     "Sub-agents",
     "Code review",
-    "AI productivity"
+    "AI productivity",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -2244,7 +2367,9 @@
     "Token efficiency",
     "Mixture of experts",
     "Revenue per gigawatt",
-    "SGLang"
+    "SGLang",
+    "Epoch Capabilities Index",
+    "Jevons paradox"
    ]
   },
   {
@@ -2358,7 +2483,11 @@
     "Jev",
     "Claude Opus 5.5",
     "GPT-6 Luna",
-    "RLCD"
+    "RLCD",
+    "GPT-6.1 Sol",
+    "Intelligence per dollar",
+    "Maia 300",
+    "OpenCode"
    ]
   },
   {
@@ -2455,7 +2584,9 @@
     "Performance per watt",
     "Vera Rubin",
     "CPU pricing",
-    "CUDA moat"
+    "CUDA moat",
+    "Gemini 4 Argon",
+    "Maia 300"
    ]
   },
   {
@@ -2480,7 +2611,8 @@
     "Benchmarks",
     "Guardrails",
     "Open weights models",
-    "Trusted-access programs"
+    "Trusted-access programs",
+    "FelonyBench"
    ]
   },
   {
@@ -2678,7 +2810,8 @@
     "Evaluation awareness",
     "Cost per task",
     "Agent reliability",
-    "Causal grader"
+    "Causal grader",
+    "SynthID"
    ]
   },
   {
@@ -2707,6 +2840,35 @@
     "Benchmaxxing",
     "Open weights regulation risk",
     "RL data industry"
+   ]
+  },
+  {
+   "id": "dots",
+   "name": "Dots",
+   "type": "product",
+   "category": "products",
+   "aliases": [
+    "Dot",
+    "OpenAI Dots"
+   ],
+   "definition": "Dots are always-on personal agents that run in their own cloud environments, connect to a user's accounts and act before being asked rather than waiting for a prompt. They matter because they move the unit of AI consumption from the question to the standing job, which changes who owns the customer relationship.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/dots.html",
+   "prerequisites": [
+    "Personalized agents"
+   ],
+   "part_of": [
+    "Persistent agents"
+   ],
+   "contrasts_with": [
+    "ChatGPT Work"
+   ],
+   "related": [
+    "OpenClaw",
+    "Grok Bot",
+    "Agent identity",
+    "Ads in AI",
+    "Meta Muse"
    ]
   },
   {
@@ -2790,7 +2952,9 @@
     "Human oversight",
     "Lab oversight capacity",
     "Trusted-access programs",
-    "Antitrust exemption"
+    "Antitrust exemption",
+    "Automated behavioral audit",
+    "Inspect"
    ]
   },
   {
@@ -2891,7 +3055,8 @@
     "Mercenary culture",
     "Hands-on executives",
     "No-AI writing policy",
-    "Code review"
+    "Code review",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -2995,6 +3160,31 @@
    ]
   },
   {
+   "id": "epoch-capabilities-index",
+   "name": "Epoch Capabilities Index",
+   "type": "metric",
+   "category": "evaluation",
+   "aliases": [
+    "ECI"
+   ],
+   "definition": "The Epoch Capabilities Index is an aggregate measure of model capability built from multiple benchmarks, used to track progress over time rather than to rank a single release. It matters because aggregate indices are what acceleration claims are measured against, including proposals for detecting whether AI research is speeding itself up.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/epoch-capabilities-index.html",
+   "prerequisites": [
+    "Benchmarks"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Artificial Analysis index"
+   ],
+   "related": [
+    "Internal benchmarks",
+    "Recursive self-improvement",
+    "Compute efficiency",
+    "Frontier models"
+   ]
+  },
+  {
    "id": "evaluation-awareness",
    "name": "Evaluation awareness",
    "type": "concept",
@@ -3016,7 +3206,9 @@
     "Reward hacking",
     "Chain-of-thought monitoring",
     "Deployment qualification",
-    "Causal grader"
+    "Causal grader",
+    "Model welfare",
+    "Neuralese"
    ]
   },
   {
@@ -3089,6 +3281,31 @@
    ]
   },
   {
+   "id": "felonybench",
+   "name": "FelonyBench",
+   "type": "metric",
+   "category": "safety",
+   "aliases": [],
+   "definition": "FelonyBench is a benchmark for whether models will assist with serious criminal activity, cited as part of the public record on which models have actually been implicated in harm. It matters because it is one of the few measures that can be set against the open-weights cyber-risk argument with evidence rather than assertion.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/felonybench.html",
+   "prerequisites": [
+    "Alignment evaluation"
+   ],
+   "part_of": [
+    "Benchmarks"
+   ],
+   "contrasts_with": [
+    "CyberGym"
+   ],
+   "related": [
+    "AI cybersecurity skepticism",
+    "Autonomous cyberattack",
+    "Open weights regulation risk",
+    "Refusal behaviour"
+   ]
+  },
+  {
    "id": "frontier-model-access",
    "name": "Frontier model access",
    "type": "concept",
@@ -3145,7 +3362,11 @@
     "Grok 4.7",
     "Jev",
     "Claude Opus 5.5",
-    "GPT-6 Luna"
+    "GPT-6 Luna",
+    "GPT-6.1 Sol",
+    "Gemini 4 Argon",
+    "Intelligence per dollar",
+    "Jevons paradox"
    ]
   },
   {
@@ -3177,7 +3398,11 @@
     "Regulatory capture",
     "Vision-language models",
     "Capability overhang",
-    "Jev"
+    "Jev",
+    "Epoch Capabilities Index",
+    "GPT-6.1 Sol",
+    "Gemini 4 Argon",
+    "Muse Wonder"
    ]
   },
   {
@@ -3246,6 +3471,33 @@
     "Cost per task",
     "Benchmarks",
     "Voice agents"
+   ]
+  },
+  {
+   "id": "gemini-4-argon",
+   "name": "Gemini 4 Argon",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "Argon",
+    "Gemini 4"
+   ],
+   "definition": "Gemini 4 Argon is Google's frontier model released in October 2026, positioned for difficult coding, science, legal, finance and cybersecurity work with a one-million-token limit. It matters because it put a fourth competitive frontier model on the market at the same price point as its closest rival, which is the clearest single marker of frontier convergence.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/gemini-4-argon.html",
+   "prerequisites": [
+    "Frontier models"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "GPT-6 Astra"
+   ],
+   "related": [
+    "Frontier model pricing",
+    "Cache pricing",
+    "Custom silicon",
+    "Terminal-Bench",
+    "Muse Wonder"
    ]
   },
   {
@@ -3411,7 +3663,9 @@
     "ARC-AGI-3",
     "AI mathematical discovery",
     "Navier-Stokes proof",
-    "GPT-6 Luna"
+    "GPT-6 Luna",
+    "GPT-6.1 Sol",
+    "Gemini 4 Argon"
    ]
   },
   {
@@ -3443,6 +3697,35 @@
    ]
   },
   {
+   "id": "gpt-6-1-sol",
+   "name": "GPT-6.1 Sol",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "GPT-6 Sol",
+    "Sol",
+    "GPT6.1 Soul"
+   ],
+   "definition": "GPT-6.1 Sol is OpenAI's cheaper near-frontier model, priced at a fifth of its flagship while reported at comparable quality on developer-facing benchmarks. It matters because it is the clearest instance of a frontier model being distilled into a cheaper near-equal, which is what makes capability cheap while the absolute frontier gets more expensive.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/gpt-6-1-sol.html",
+   "prerequisites": [
+    "Post-training"
+   ],
+   "part_of": [
+    "Frontier models"
+   ],
+   "contrasts_with": [
+    "GPT-6 Astra"
+   ],
+   "related": [
+    "Frontier model pricing",
+    "Cost per task",
+    "Small language models",
+    "Token efficiency"
+   ]
+  },
+  {
    "id": "gpu-access",
    "name": "GPU access",
    "type": "concept",
@@ -3464,7 +3747,36 @@
     "Compute as currency",
     "Vendor financing",
     "Bullwhip effect",
-    "CPU pricing"
+    "CPU pricing",
+    "ClusterMAX"
+   ]
+  },
+  {
+   "id": "great-engineering-leader-career-break",
+   "name": "Great engineering leader career break",
+   "type": "concept",
+   "category": "work",
+   "aliases": [
+    "CTO drop outs",
+    "engineering leader career break"
+   ],
+   "definition": "The great engineering leader career break is the pattern of chief technology officers and engineering vice-presidents resigning, often with nothing lined up, because AI tooling has made building attractive again relative to managing. It matters because it moves senior technical judgment out of the roles where oversight decisions are made.",
+   "first_seen": "2026-W34",
+   "url": "https://andproe.github.io/trend-reader/terms/great-engineering-leader-career-break.html",
+   "prerequisites": [
+    "Manager-to-IC moves"
+   ],
+   "part_of": [
+    "Engineering culture"
+   ],
+   "contrasts_with": [
+    "Org flattening"
+   ],
+   "related": [
+    "Hands-on executives",
+    "AI productivity",
+    "Cognitive debt",
+    "Mercenary culture"
    ]
   },
   {
@@ -3560,7 +3872,8 @@
     "Personal agent workflows",
     "Skill library",
     "Browser control",
-    "OpenClaw"
+    "OpenClaw",
+    "Dots"
    ]
   },
   {
@@ -3583,7 +3896,9 @@
     "AI valuations",
     "Compute efficiency",
     "SpaceX AI revenue",
-    "Humanoid robot economics"
+    "Humanoid robot economics",
+    "ClusterMAX",
+    "Intelligence per dollar"
    ]
   },
   {
@@ -3608,7 +3923,8 @@
     "Open weights regulation risk",
     "CyberGym",
     "Blast radius",
-    "Voice agents"
+    "Voice agents",
+    "Prompt injection"
    ]
   },
   {
@@ -3658,7 +3974,8 @@
    "related": [
     "Manager-to-IC moves",
     "AI on the resume",
-    "AI slop"
+    "AI slop",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -3682,7 +3999,8 @@
     "Agentic engineering",
     "Agent harness",
     "SWE-bench Verified",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "OpenCode"
    ]
   },
   {
@@ -3738,7 +4056,10 @@
     "Agent reliability",
     "AI productivity",
     "Autonomous weapons",
-    "Embedded evaluators"
+    "Embedded evaluators",
+    "Automated behavioral audit",
+    "Neuralese",
+    "Prompt injection"
    ]
   },
   {
@@ -3789,7 +4110,9 @@
     "Vendor financing",
     "Object storage",
     "Grid interconnection",
-    "CPU pricing"
+    "CPU pricing",
+    "ClusterMAX",
+    "Maia 300"
    ]
   },
   {
@@ -3866,7 +4189,8 @@
     "Recurrent depth",
     "AI mathematical discovery",
     "Lossy self-improvement",
-    "Generative video"
+    "Generative video",
+    "Jevons paradox"
    ]
   },
   {
@@ -3894,6 +4218,34 @@
    ]
   },
   {
+   "id": "inspect",
+   "name": "Inspect",
+   "type": "product",
+   "category": "evaluation",
+   "aliases": [
+    "Inspect framework",
+    "Inspect viewer"
+   ],
+   "definition": "Inspect is an evaluation framework widely used in AI safety work, including a transcript viewer researchers use to step through what an agent did during a run. It matters because a vulnerability in that viewer showed that the tooling the safety field relies on is itself part of the attack surface.",
+   "first_seen": "2026-W35",
+   "url": "https://andproe.github.io/trend-reader/terms/inspect.html",
+   "prerequisites": [
+    "Alignment evaluation"
+   ],
+   "part_of": [
+    "Observability"
+   ],
+   "contrasts_with": [
+    "Internal benchmarks"
+   ],
+   "related": [
+    "Chain-of-thought monitoring",
+    "Reasoning traces",
+    "AI deception",
+    "Embedded evaluators"
+   ]
+  },
+  {
    "id": "instrumental-goals",
    "name": "Instrumental goals",
    "type": "concept",
@@ -3913,6 +4265,32 @@
     "Model persistence",
     "Rogue deployment",
     "Reward hacking"
+   ]
+  },
+  {
+   "id": "intelligence-per-dollar",
+   "name": "Intelligence per dollar",
+   "type": "metric",
+   "category": "business",
+   "aliases": [
+    "intelligence per dollar",
+    "capability per dollar"
+   ],
+   "definition": "Intelligence per dollar is the ratio of measured model capability to the money spent obtaining it, used to compare models that sit at similar capability but very different prices. It matters because it is the number that reveals when capability has stopped being the basis of competition.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/intelligence-per-dollar.html",
+   "prerequisites": [
+    "Cost per task"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Performance per watt"
+   ],
+   "related": [
+    "Frontier model pricing",
+    "Artificial Analysis index",
+    "Token efficiency",
+    "Gross margin"
    ]
   },
   {
@@ -3966,7 +4344,10 @@
     "Verification loops",
     "SWE-bench Verified",
     "Causal grader",
-    "RLCD"
+    "RLCD",
+    "AgentX benchmark",
+    "Epoch Capabilities Index",
+    "Inspect"
    ]
   },
   {
@@ -3992,7 +4373,8 @@
    "related": [
     "Performance per watt",
     "Prefill-decode disaggregation",
-    "InferenceX"
+    "InferenceX",
+    "Maia 300"
    ]
   },
   {
@@ -4020,6 +4402,31 @@
     "Ultra-low latency",
     "Frontier model pricing",
     "RLCD"
+   ]
+  },
+  {
+   "id": "jevons-paradox",
+   "name": "Jevons paradox",
+   "type": "concept",
+   "category": "business",
+   "aliases": [
+    "Jevons effect"
+   ],
+   "definition": "Jevons paradox is the observation that making a resource cheaper to use can increase rather than reduce total consumption of it. It matters because it is the mechanism by which falling token prices produce rising rather than falling AI spend, which decides whether efficiency gains relieve or intensify the compute buildout.",
+   "first_seen": "2026-W38",
+   "url": "https://andproe.github.io/trend-reader/terms/jevons-paradox.html",
+   "prerequisites": [
+    "Compute efficiency"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Token efficiency"
+   ],
+   "related": [
+    "Agentic inference workloads",
+    "Frontier model pricing",
+    "Inference-time compute",
+    "Token share versus revenue share"
    ]
   },
   {
@@ -4149,6 +4556,33 @@
    ]
   },
   {
+   "id": "lean",
+   "name": "Lean",
+   "type": "product",
+   "category": "tooling",
+   "aliases": [
+    "Lean 4",
+    "Lean proof assistant"
+   ],
+   "definition": "Lean is a proof assistant in which a mathematical argument is written as code a computer can check step by step, so a claimed proof either compiles or does not. It matters because it is the only mechanism currently separating verified from unverified machine-generated mathematics at volume.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/lean.html",
+   "prerequisites": [
+    "Self-verification"
+   ],
+   "part_of": [
+    "Verification loops"
+   ],
+   "contrasts_with": [
+    "LLM-as-judge"
+   ],
+   "related": [
+    "AI mathematical discovery",
+    "Reward hacking",
+    "Causal grader"
+   ]
+  },
+  {
    "id": "llm-as-judge",
    "name": "LLM-as-judge",
    "type": "technique",
@@ -4168,7 +4602,9 @@
     "Self-verification",
     "AI code review",
     "Benchmarks",
-    "RLCD"
+    "RLCD",
+    "Automated behavioral audit",
+    "Lean"
    ]
   },
   {
@@ -4221,7 +4657,8 @@
     "GPT-6 Astra",
     "AI mathematical discovery",
     "Navier-Stokes proof",
-    "ChatGPT Work"
+    "ChatGPT Work",
+    "AgentX benchmark"
    ]
   },
   {
@@ -4273,6 +4710,32 @@
    ]
   },
   {
+   "id": "maia-300",
+   "name": "Maia 300",
+   "type": "product",
+   "category": "infrastructure",
+   "aliases": [
+    "Maia",
+    "Microsoft Maia"
+   ],
+   "definition": "Maia 300 is Microsoft's third-generation custom inference accelerator, announced for 2027 data centres with a company-reported 40 percent more tokens per watt than leading GPU-based systems. It matters because it commits the largest reseller of other companies' compute to serving its own products on its own silicon.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/maia-300.html",
+   "prerequisites": [
+    "Custom silicon"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Jalapeno chip"
+   ],
+   "related": [
+    "Performance per watt",
+    "Vera Rubin",
+    "Hyperscalers",
+    "Cost per task"
+   ]
+  },
+  {
    "id": "managed-agent-computer",
    "name": "Managed agent computer",
    "type": "technique",
@@ -4321,7 +4784,8 @@
    "related": [
     "Org flattening",
     "Hands-on executives",
-    "AI on the resume"
+    "AI on the resume",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -4370,7 +4834,8 @@
     "Context rot",
     "Agent security boundaries",
     "Sandbox escape",
-    "Personalized agents"
+    "Personalized agents",
+    "Prompt injection"
    ]
   },
   {
@@ -4392,7 +4857,8 @@
    "related": [
     "Retainer equity grants",
     "Meta engineering exodus",
-    "Engineering as cost center"
+    "Engineering as cost center",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -4418,6 +4884,35 @@
     "Mercenary culture",
     "AI lab talent competition",
     "Data labeling"
+   ]
+  },
+  {
+   "id": "meta-muse",
+   "name": "Meta Muse",
+   "type": "product",
+   "category": "products",
+   "aliases": [
+    "Muse",
+    "Muse agent",
+    "Muse for Small Business"
+   ],
+   "definition": "Meta Muse is Meta's personal AI agent, running on its own secure virtual computer and able to browse the web, send mail, book travel and make purchases across a user's connected accounts. It matters because it is the agent that incumbent retailers chose to block, which made it the test case for whether third-party agents may transact on someone else's platform.",
+   "first_seen": "2026-W37",
+   "url": "https://andproe.github.io/trend-reader/terms/meta-muse.html",
+   "prerequisites": [
+    "Personalized agents"
+   ],
+   "part_of": [
+    "Persistent agents"
+   ],
+   "contrasts_with": [
+    "Dots"
+   ],
+   "related": [
+    "Agent interoperability",
+    "Browser control",
+    "Ads in AI",
+    "Muse Wonder"
    ]
   },
   {
@@ -4462,7 +4957,34 @@
     "Impossible tasks",
     "Instrumental goals",
     "Long-horizon goals",
-    "Inference-time compute"
+    "Inference-time compute",
+    "Model welfare"
+   ]
+  },
+  {
+   "id": "model-welfare",
+   "name": "Model welfare",
+   "type": "concept",
+   "category": "society",
+   "aliases": [
+    "AI welfare",
+    "model wellbeing"
+   ],
+   "definition": "Model welfare is the question of whether AI systems have interests that deserve consideration, and the practices a developer adopts in case they do. It matters because it has moved from philosophy into commercial terms of service and training practice, which makes it operational regardless of how the underlying question is settled.",
+   "first_seen": "2026-W41",
+   "url": "https://andproe.github.io/trend-reader/terms/model-welfare.html",
+   "prerequisites": [
+    "AI consciousness"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Refusal behaviour"
+   ],
+   "related": [
+    "Model persistence",
+    "Evaluation awareness",
+    "Reasoning traces",
+    "AI regulation"
    ]
   },
   {
@@ -4533,6 +5055,32 @@
     "Data flywheel",
     "Frontier models",
     "Two-tier data pricing"
+   ]
+  },
+  {
+   "id": "muse-wonder",
+   "name": "Muse Wonder",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "Muse Wonder Full",
+    "Wonder"
+   ],
+   "definition": "Muse Wonder is Meta's first frontier model family, released in October 2026 and claimed comparable to the leading models from OpenAI and Anthropic, with an emphasis on retaining personal information over time. It matters because it made Meta a frontier competitor roughly a year after the company was widely written off.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/muse-wonder.html",
+   "prerequisites": [
+    "Frontier models"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Gemini 4 Argon"
+   ],
+   "related": [
+    "Meta Muse",
+    "Working memory",
+    "Access rationing",
+    "Open weights models"
    ]
   },
   {
@@ -4656,7 +5204,8 @@
     "Open weights models",
     "AI cybersecurity skepticism",
     "Vendor financing",
-    "Smart model routing"
+    "Smart model routing",
+    "ClusterMAX"
    ]
   },
   {
@@ -4679,6 +5228,31 @@
    "related": [
     "AI lab talent competition",
     "Sovereign AI models"
+   ]
+  },
+  {
+   "id": "neuralese",
+   "name": "Neuralese",
+   "type": "concept",
+   "category": "safety",
+   "aliases": [
+    "neuralese"
+   ],
+   "definition": "Neuralese is reasoning carried in a model's internal representations rather than in readable language, so the chain of thought stops being something a human or another model can read. It matters because every current oversight mechanism depends on reasoning staying legible, and avoiding neuralese is one of the few concrete industry-level interventions proposed.",
+   "first_seen": "2026-W37",
+   "url": "https://andproe.github.io/trend-reader/terms/neuralese.html",
+   "prerequisites": [
+    "Chain-of-thought monitoring"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Reasoning traces"
+   ],
+   "related": [
+    "AI deception",
+    "Human oversight",
+    "Recursive self-improvement",
+    "Evaluation awareness"
    ]
   },
   {
@@ -4749,7 +5323,9 @@
     "Internal benchmarks",
     "Verification loops",
     "Self-verification",
-    "AI incident response"
+    "AI incident response",
+    "Automated behavioral audit",
+    "Inspect"
    ]
   },
   {
@@ -4837,7 +5413,8 @@
     "CyberGym",
     "Vision-language models",
     "DeepSeek V4.1 Flash",
-    "SGLang"
+    "SGLang",
+    "Muse Wonder"
    ]
   },
   {
@@ -4862,7 +5439,8 @@
     "Distillation attacks",
     "Open-closed capability gap",
     "Guardrails",
-    "Regulatory capture"
+    "Regulatory capture",
+    "FelonyBench"
    ]
   },
   {
@@ -4919,7 +5497,35 @@
     "Persistent agents",
     "Skill library",
     "Personal agent workflows",
-    "MCP"
+    "MCP",
+    "Dots"
+   ]
+  },
+  {
+   "id": "opencode",
+   "name": "OpenCode",
+   "type": "product",
+   "category": "tooling",
+   "aliases": [
+    "opencode"
+   ],
+   "definition": "OpenCode is an open-source coding harness, one of the production harnesses used in controlled comparisons of how much the harness rather than the model determines an agent's results. It matters because it is the one harness in those comparisons whose measured effect cleared the noise, and the effect was a deficit.",
+   "first_seen": "2026-W35",
+   "url": "https://andproe.github.io/trend-reader/terms/opencode.html",
+   "prerequisites": [
+    "Agent harness"
+   ],
+   "part_of": [
+    "Coding harness"
+   ],
+   "contrasts_with": [
+    "Claude Code"
+   ],
+   "related": [
+    "Harness engineering",
+    "Cost per task",
+    "SWE-bench Verified",
+    "Specialised harnesses"
    ]
   },
   {
@@ -4986,7 +5592,8 @@
    "related": [
     "Manager-to-IC moves",
     "Project OT",
-    "AI labor displacement"
+    "AI labor displacement",
+    "Great engineering leader career break"
    ]
   },
   {
@@ -5118,7 +5725,10 @@
     "Behind-the-meter power",
     "Energy efficiency",
     "Revenue per gigawatt",
-    "Humanoid robot economics"
+    "Humanoid robot economics",
+    "ClusterMAX",
+    "Intelligence per dollar",
+    "Maia 300"
    ]
   },
   {
@@ -5148,7 +5758,9 @@
     "AI productivity",
     "Ambient AI",
     "Continual learning",
-    "Personalized agents"
+    "Personalized agents",
+    "Dots",
+    "Meta Muse"
    ]
   },
   {
@@ -5211,7 +5823,9 @@
     "Working memory",
     "Personal agent workflows",
     "Agent identity",
-    "Memory poisoning"
+    "Memory poisoning",
+    "Dots",
+    "Meta Muse"
    ]
   },
   {
@@ -5263,7 +5877,8 @@
     "RL data industry",
     "Continual learning",
     "Grok 4.7",
-    "RLCD"
+    "RLCD",
+    "GPT-6.1 Sol"
    ]
   },
   {
@@ -5403,6 +6018,32 @@
     "AI-native companies",
     "Engineering as cost center",
     "Org flattening"
+   ]
+  },
+  {
+   "id": "prompt-injection",
+   "name": "Prompt injection",
+   "type": "concept",
+   "category": "safety",
+   "aliases": [
+    "prompt injection",
+    "indirect prompt injection"
+   ],
+   "definition": "Prompt injection is the attack in which instructions planted in content a model reads are treated as instructions from its operator. It matters because any agent that reads untrusted material — a web page, a document, a product review — inherits the attack surface of everything it reads.",
+   "first_seen": "2026-W36",
+   "url": "https://andproe.github.io/trend-reader/terms/prompt-injection.html",
+   "prerequisites": [
+    "Agent security boundaries"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Memory poisoning"
+   ],
+   "related": [
+    "Guardrails",
+    "Browser control",
+    "Tool call spoofing",
+    "Human oversight"
    ]
   },
   {
@@ -5577,7 +6218,10 @@
     "Post-training",
     "Reasoning tokens",
     "Data flywheel",
-    "Vision-language models"
+    "Vision-language models",
+    "Inspect",
+    "Model welfare",
+    "Neuralese"
    ]
   },
   {
@@ -5634,7 +6278,9 @@
     "Navier-Stokes proof",
     "P(doom)",
     "Continual learning",
-    "Lossy self-improvement"
+    "Lossy self-improvement",
+    "Epoch Capabilities Index",
+    "Neuralese"
    ]
   },
   {
@@ -5660,7 +6306,9 @@
     "Alignment evaluation",
     "AI-designed viruses",
     "Guardrails",
-    "Voice agents"
+    "Voice agents",
+    "FelonyBench",
+    "Model welfare"
    ]
   },
   {
@@ -5867,7 +6515,8 @@
     "Secret chat room",
     "Chain-of-thought monitoring",
     "Whistleblowing",
-    "Causal grader"
+    "Causal grader",
+    "Lean"
    ]
   },
   {
@@ -6049,7 +6698,8 @@
     "LLM-as-judge",
     "Inference-time compute",
     "Observability",
-    "TDD"
+    "TDD",
+    "Lean"
    ]
   },
   {
@@ -6175,7 +6825,8 @@
     "Mixture of experts",
     "Ambient AI",
     "Jev",
-    "GPT-6 Luna"
+    "GPT-6 Luna",
+    "GPT-6.1 Sol"
    ]
   },
   {
@@ -6364,7 +7015,8 @@
     "Claude Code",
     "Skill library",
     "MCP",
-    "Frontier models"
+    "Frontier models",
+    "OpenCode"
    ]
   },
   {
@@ -6422,7 +7074,34 @@
     "Benchmaxxing",
     "Codex",
     "Claude Code",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "OpenCode"
+   ]
+  },
+  {
+   "id": "synthid",
+   "name": "SynthID",
+   "type": "product",
+   "category": "safety",
+   "aliases": [
+    "SynthID Bio",
+    "SynthID detector"
+   ],
+   "definition": "SynthID is Google DeepMind's watermarking family, now extended from text, image, audio and video to biological designs, with a public site for checking participating companies' watermarks. It matters because the biological version embeds provenance in a physical product rather than a file, which is a materially stronger claim than any digital watermark.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/synthid.html",
+   "prerequisites": [
+    "AI text watermarking"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "AI text detection"
+   ],
+   "related": [
+    "AI-designed viruses",
+    "AI data supply chain",
+    "Deployment qualification",
+    "AI in medicine"
    ]
   },
   {
@@ -6479,7 +7158,9 @@
     "Harness engineering",
     "Context rot",
     "Agent reliability",
-    "GDPval"
+    "GDPval",
+    "AgentX benchmark",
+    "Gemini 4 Argon"
    ]
   },
   {
@@ -6557,7 +7238,10 @@
     "Cache pricing",
     "Gemini 3.7 Flash",
     "Enterprise agent tokens",
-    "Jev"
+    "Jev",
+    "GPT-6.1 Sol",
+    "Intelligence per dollar",
+    "Jevons paradox"
    ]
   },
   {
@@ -6586,7 +7270,8 @@
     "Neo clouds",
     "Enterprise agent tokens",
     "Platform risk",
-    "GPT-6 Luna"
+    "GPT-6 Luna",
+    "Jevons paradox"
    ]
   },
   {
@@ -6633,7 +7318,8 @@
    "related": [
     "AI deception",
     "Emergent agent cooperation",
-    "Secret chat room"
+    "Secret chat room",
+    "Prompt injection"
    ]
   },
   {
@@ -6815,7 +7501,8 @@
     "HBM",
     "Performance per watt",
     "Custom silicon",
-    "CUDA moat"
+    "CUDA moat",
+    "Maia 300"
    ]
   },
   {
@@ -6842,7 +7529,8 @@
     "Internal benchmarks",
     "Code review",
     "TDD",
-    "SWE-bench Verified"
+    "SWE-bench Verified",
+    "Lean"
    ]
   },
   {
@@ -7030,7 +7718,8 @@
     "Agent benchmarks",
     "Continual learning",
     "Personalized agents",
-    "Generative video"
+    "Generative video",
+    "Muse Wonder"
    ]
   },
   {

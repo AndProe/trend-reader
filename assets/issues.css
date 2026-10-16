@@ -1,0 +1,51 @@
+/* Newsletter issue pages (issues.html, issues/<date>.html). Every selector is scoped under .issue-page so this
+   never touches any other page; all colors/fonts are the site's own tokens from base.css, nothing redefined here.
+   .badge and .pager reuse the site's existing shared components (base.css) rather than styling their own. */
+.issue-page{max-width:var(--w-content);margin:0 auto;padding:var(--space-6) 0 var(--space-8)}
+.issue-page .mast{background:var(--hero-bg);color:var(--hero-ink);padding:26px 26px 32px;border-radius:var(--radius-lg);border-bottom:3px solid var(--signal)}
+.issue-page .mast .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-size:1.25rem;color:var(--hero-ink);text-decoration:none}
+.issue-page .mast .brand i{width:9px;height:9px;border-radius:50%;background:var(--signal);display:inline-block;flex:none}
+.issue-page .mast .brand small{font-family:var(--font-body);font-size:.78rem;color:var(--hero-dim);margin-left:4px;font-weight:400}
+.issue-page .mast .eyebrow{font-family:var(--font-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;color:var(--hero-dim);margin:24px 0 10px}
+.issue-page .mast h1{font-family:var(--font-display);font-weight:400;font-size:clamp(1.9rem,1.4rem + 2.2vw,2.7rem);line-height:1.12;letter-spacing:-.01em;margin:0;color:var(--hero-ink)}
+.issue-page .mast .terms-strip{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.issue-page .mast .terms-strip a{font-family:var(--font-mono);font-size:.72rem;color:var(--hero-ink);text-decoration:none;border:1px solid var(--hero-line);border-radius:999px;padding:5px 11px;background:rgba(255,255,255,.04)}
+.issue-page .mast .terms-strip a:hover{border-color:var(--signal)}
+.issue-page .lede{margin:30px 0 6px;padding-left:18px;border-left:3px solid var(--signal)}
+.issue-page .lede p{font-family:var(--font-display);font-size:1.22rem;line-height:1.42;margin:0 0 12px;color:var(--ink)}
+.issue-page h2.sec{font-family:var(--font-display);font-weight:400;font-size:1.6rem;line-height:1.2;letter-spacing:-.005em;margin:44px 0 6px}
+.issue-page h2.sec+.sub{color:var(--ink-3);font-size:.88rem;margin:0 0 16px}
+.issue-page .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin:0 0 14px;box-shadow:var(--shadow-sm)}
+.issue-page .card .meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:8px}
+.issue-page .card h3{font-family:var(--font-body);font-weight:600;font-size:1.2rem;letter-spacing:-.01em;margin:0 0 10px}
+.issue-page .card h3 a{color:var(--ink);text-decoration:none}
+.issue-page .card h3 a:hover{color:var(--link);text-decoration:underline}
+.issue-page .card p{margin:0 0 12px;color:var(--ink-2)}
+.issue-page .pre{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.issue-page .pre .lbl{font-family:var(--font-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-3);margin-right:4px}
+.issue-page .pre a{font-size:.83rem;font-weight:500;text-decoration:none;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:4px 11px}
+.issue-page .pre a:hover{filter:brightness(.95)}
+.issue-page .more{display:inline-block;margin-top:12px;font-size:.85rem;font-weight:500;text-decoration:none}
+.issue-page .more:after{content:" \2192"}
+.issue-page figure.snap{margin:0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#090C15}
+.issue-page figure.snap img{display:block;width:100%;height:auto}
+.issue-page figure.snap figcaption{font-family:var(--font-mono);font-size:.72rem;color:#8A93AE;padding:10px 14px;border-top:1px solid #262E48;line-height:1.5}
+.issue-page .legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 2px 0;font-family:var(--font-mono);font-size:.68rem;color:var(--ink-3)}
+.issue-page .legend span{display:inline-flex;align-items:center;gap:6px}
+.issue-page .legend i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.issue-page .callout{background:var(--accent-soft);border-left:4px solid var(--signal);border-radius:0 var(--radius) var(--radius) 0;padding:18px 22px;margin:0}
+.issue-page .callout .eyebrow{font-family:var(--font-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-3);margin-bottom:8px}
+.issue-page .callout p{margin:0 0 10px;font-size:1.02rem;color:var(--ink)}
+.issue-page .callout p:last-child{margin:0}
+.issue-page ol.next{list-style:none;counter-reset:n;padding:0;margin:0}
+.issue-page ol.next li{counter-increment:n;position:relative;padding:14px 0 14px 44px;border-top:1px solid var(--line);color:var(--ink-2)}
+.issue-page ol.next li:last-child{border-bottom:1px solid var(--line)}
+.issue-page ol.next li:before{content:counter(n,decimal-leading-zero);position:absolute;left:0;top:15px;font-family:var(--font-mono);font-size:.78rem;color:var(--signal)}
+.issue-page .issue-foot{margin-top:48px;padding-top:22px;border-top:1px solid var(--line)}
+.issue-page .issue-foot>.eyebrow{font-family:var(--font-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-3)}
+.issue-page .issue-foot .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 20px}
+.issue-page .issue-foot .btns a{text-decoration:none;font-weight:500;font-size:.88rem;padding:9px 15px;border-radius:var(--radius-sm);border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.issue-page .issue-foot .btns a.primary{background:var(--signal);border-color:var(--signal);color:#fff}
+.issue-page .issue-foot p{color:var(--ink-3);font-size:.84rem;margin:0 0 6px}
+.issue-page .issue-foot p a{color:var(--ink-2)}
+@media (max-width:479px){.issue-page .card{padding:16px}.issue-page .mast{padding:20px 18px 28px}}
