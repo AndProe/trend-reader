@@ -2,7 +2,7 @@
  "site": "Trend Reader",
  "url": "https://andproe.github.io/trend-reader/index.html",
  "author": "Andreas Proesch",
- "updated": "2026-10-16",
+ "updated": "2026-10-23",
  "terms": [
   {
    "id": "access-rationing",
@@ -88,7 +88,8 @@
     "Persistent agents",
     "Whistleblowing",
     "Agent reliability",
-    "Autonomous weapons"
+    "Autonomous weapons",
+    "Approval fatigue"
    ]
   },
   {
@@ -179,7 +180,8 @@
     "Guardrails",
     "Vision-language models",
     "Terminal-Bench",
-    "OpenCode"
+    "OpenCode",
+    "Antigravity"
    ]
   },
   {
@@ -281,7 +283,8 @@
     "Enterprise AI adoption",
     "AI incident response",
     "Terminal-Bench",
-    "AgentX benchmark"
+    "AgentX benchmark",
+    "Calibration"
    ]
   },
   {
@@ -315,7 +318,8 @@
     "Guardrails",
     "Blast radius",
     "Voice agents",
-    "Prompt injection"
+    "Prompt injection",
+    "Approval fatigue"
    ]
   },
   {
@@ -390,7 +394,8 @@
     "Loop engineering",
     "Observability",
     "Automated software maintenance",
-    "AI productivity"
+    "AI productivity",
+    "Scion"
    ]
   },
   {
@@ -449,7 +454,8 @@
    "related": [
     "Personal agent workflows",
     "AI slop",
-    "Human oversight"
+    "Human oversight",
+    "Influence operations"
    ]
   },
   {
@@ -700,7 +706,8 @@
     "AI agent containment",
     "Automated behavioral audit",
     "Inspect",
-    "Neuralese"
+    "Neuralese",
+    "Influence operations"
    ]
   },
   {
@@ -791,7 +798,8 @@
    "related": [
     "AI regulation",
     "Human oversight",
-    "SynthID"
+    "SynthID",
+    "Antigravity"
    ]
   },
   {
@@ -962,7 +970,8 @@
     "Recursive self-improvement",
     "GPT-6 Astra",
     "Long-horizon goals",
-    "Lean"
+    "Lean",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -1012,7 +1021,8 @@
     "Enterprise AI adoption",
     "Capability overhang",
     "GDPval",
-    "Great engineering leader career break"
+    "Great engineering leader career break",
+    "Scion"
    ]
   },
   {
@@ -1046,7 +1056,9 @@
     "Congressional inquiry",
     "Regulatory capture",
     "Antitrust exemption",
-    "Model welfare"
+    "Model welfare",
+    "Influence operations",
+    "MATCH Act"
    ]
   },
   {
@@ -1071,7 +1083,8 @@
     "Automated alignment research",
     "Human oversight",
     "Skill library",
-    "AI mathematical discovery"
+    "AI mathematical discovery",
+    "Antigravity"
    ]
   },
   {
@@ -1094,7 +1107,8 @@
     "Revenue per gigawatt",
     "Hyperscalers",
     "AI valuations",
-    "Anthropic IPO"
+    "Anthropic IPO",
+    "Customer concentration"
    ]
   },
   {
@@ -1121,7 +1135,8 @@
     "AI text detection",
     "AI design homogeneity",
     "AI fatigue",
-    "Vibe coding"
+    "Vibe coding",
+    "Influence operations"
    ]
   },
   {
@@ -1145,7 +1160,8 @@
     "AI slop",
     "No-AI writing policy",
     "AI design homogeneity",
-    "SynthID"
+    "SynthID",
+    "Influence operations"
    ]
   },
   {
@@ -1199,7 +1215,8 @@
     "AI revenue requirement",
     "Gross margin",
     "Neolabs",
-    "Anthropic IPO"
+    "Anthropic IPO",
+    "Customer concentration"
    ]
   },
   {
@@ -1354,7 +1371,33 @@
     "Vendor financing",
     "Pacing the frontier",
     "Regulatory capture",
-    "Lab consolidation"
+    "Lab consolidation",
+    "Customer concentration"
+   ]
+  },
+  {
+   "id": "antigravity",
+   "name": "Antigravity",
+   "type": "product",
+   "category": "tooling",
+   "aliases": [
+    "Google Antigravity"
+   ],
+   "definition": "Antigravity is an agentic development platform extended with domain workbenches, including one for biology with an embedded 3D molecular structure viewer. It matters because it is the clearest worked example of a general agent harness being specialised for scientific work rather than for coding.",
+   "first_seen": "2026-W35",
+   "url": "https://andproe.github.io/trend-reader/terms/antigravity.html",
+   "prerequisites": [
+    "Agent harness"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Claude Code"
+   ],
+   "related": [
+    "AI research tools",
+    "AI in medicine",
+    "Sub-agents",
+    "Verification loops"
    ]
   },
   {
@@ -1382,6 +1425,34 @@
     "Alignment evaluation",
     "Lab consolidation",
     "Congressional inquiry"
+   ]
+  },
+  {
+   "id": "approval-fatigue",
+   "name": "Approval fatigue",
+   "type": "concept",
+   "category": "safety",
+   "aliases": [
+    "approval prompts",
+    "permission fatigue"
+   ],
+   "definition": "Approval fatigue is the degradation of human-in-the-loop oversight that follows from asking a person to approve too many agent actions, which pushes users to grant broad standing permissions instead. It matters because the remedies for it, not the interception mechanism, are where agent permission systems actually fail.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/approval-fatigue.html",
+   "prerequisites": [
+    "Human oversight"
+   ],
+   "part_of": [
+    "Agent security boundaries"
+   ],
+   "contrasts_with": [
+    "Guardrails"
+   ],
+   "related": [
+    "Prompt injection",
+    "Blast radius",
+    "Agent accountability",
+    "Claude Code"
    ]
   },
   {
@@ -1590,6 +1661,31 @@
    ]
   },
   {
+   "id": "beam",
+   "name": "Beam",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "Beam-1.0"
+   ],
+   "definition": "Beam is an open-weight model released under a permissive licence and positioned on token efficiency rather than peak capability. It matters because it is the case for competing on cost-per-answer and licence terms instead of on leaderboard position.",
+   "first_seen": "2026-W41",
+   "url": "https://andproe.github.io/trend-reader/terms/beam.html",
+   "prerequisites": [
+    "Open weights models"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Muse Spark"
+   ],
+   "related": [
+    "Token efficiency",
+    "Post-training",
+    "Open-closed capability gap",
+    "Revenue-share licenses"
+   ]
+  },
+  {
    "id": "behind-the-meter-power",
    "name": "Behind-the-meter power",
    "type": "concept",
@@ -1647,7 +1743,9 @@
     "GDPval",
     "AgentX benchmark",
     "Epoch Capabilities Index",
-    "FelonyBench"
+    "FelonyBench",
+    "Calibration",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -1676,7 +1774,9 @@
     "Open-closed capability gap",
     "ARC-AGI-3",
     "SWE-bench Verified",
-    "GDPval"
+    "GDPval",
+    "Calibration",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -1699,7 +1799,8 @@
     "Agent security boundaries",
     "Code review",
     "Guardrails",
-    "Vibe coding"
+    "Vibe coding",
+    "Approval fatigue"
    ]
   },
   {
@@ -1803,6 +1904,32 @@
     "Claude Fable 5.1",
     "Claude Opus 5.5",
     "Gemini 4 Argon"
+   ]
+  },
+  {
+   "id": "calibration",
+   "name": "Calibration",
+   "type": "metric",
+   "category": "evaluation",
+   "aliases": [
+    "calibrated confidence",
+    "probability calibration"
+   ],
+   "definition": "Calibration is the agreement between a model's stated confidence and the long-run frequency with which predictions at that confidence turn out correct. It matters because any system that acts on a model's confidence — routing, abstaining, escalating — is only as sound as that number.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/calibration.html",
+   "prerequisites": [
+    "Benchmarks"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Benchmaxxing"
+   ],
+   "related": [
+    "Decision model",
+    "LLM-as-judge",
+    "Self-verification",
+    "Agent reliability"
    ]
   },
   {
@@ -1939,7 +2066,8 @@
     "GLM 5.3 Flash",
     "Sovereign AI models",
     "Open-closed capability gap",
-    "CUDA moat"
+    "CUDA moat",
+    "MATCH Act"
    ]
   },
   {
@@ -1992,7 +2120,9 @@
     "Vertical integration of AI labs",
     "Specialised harnesses",
     "SWE-bench Verified",
-    "OpenCode"
+    "OpenCode",
+    "Antigravity",
+    "Approval fatigue"
    ]
   },
   {
@@ -2148,7 +2278,8 @@
     "Automated software maintenance",
     "Database schema",
     "Blast radius",
-    "TDD"
+    "TDD",
+    "Scion"
    ]
   },
   {
@@ -2345,7 +2476,8 @@
     "Hyperscalers",
     "Revenue per gigawatt",
     "Vendor financing",
-    "Two-tier data pricing"
+    "Two-tier data pricing",
+    "MATCH Act"
    ]
   },
   {
@@ -2487,7 +2619,8 @@
     "GPT-6.1 Sol",
     "Intelligence per dollar",
     "Maia 300",
-    "OpenCode"
+    "OpenCode",
+    "Decision model"
    ]
   },
   {
@@ -2590,6 +2723,31 @@
    ]
   },
   {
+   "id": "customer-concentration",
+   "name": "Customer concentration",
+   "type": "metric",
+   "category": "business",
+   "aliases": [
+    "revenue concentration"
+   ],
+   "definition": "Customer concentration is the share of a company's revenue that comes from its largest few customers. It matters because a high share makes reported growth contingent on a handful of renewal decisions, which changes how a valuation built on that growth should be read.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/customer-concentration.html",
+   "prerequisites": [
+    "AI revenue requirement"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Product-led growth"
+   ],
+   "related": [
+    "AI valuations",
+    "Gross margin",
+    "Anthropic IPO",
+    "Enterprise AI adoption"
+   ]
+  },
+  {
    "id": "cybergym",
    "name": "CyberGym",
    "type": "product",
@@ -2639,7 +2797,8 @@
     "AI infrastructure debt",
     "Orbital data centers",
     "Grid interconnection",
-    "Data center jobs"
+    "Data center jobs",
+    "Influence operations"
    ]
   },
   {
@@ -2762,6 +2921,34 @@
    ]
   },
   {
+   "id": "decision-model",
+   "name": "Decision model",
+   "type": "concept",
+   "category": "models",
+   "aliases": [
+    "decision models",
+    "universal classifier"
+   ],
+   "definition": "A decision model is a model that returns a choice from a fixed set of options together with calibrated probabilities, rather than generating text. It matters because the routing, guardrail and verification decisions inside AI systems are single-bit questions that a generative model answers slowly and expensively.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/decision-model.html",
+   "prerequisites": [
+    "Small language models"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "LLM-as-judge"
+   ],
+   "related": [
+    "Smart model routing",
+    "Guardrails",
+    "RLCD",
+    "Calibration",
+    "Jev",
+    "Cost per task"
+   ]
+  },
+  {
    "id": "deepseek-v4-1-flash",
    "name": "DeepSeek V4.1 Flash",
    "type": "model",
@@ -2839,7 +3026,8 @@
     "Release cadence",
     "Benchmaxxing",
     "Open weights regulation risk",
-    "RL data industry"
+    "RL data industry",
+    "Self-distillation"
    ]
   },
   {
@@ -3056,7 +3244,8 @@
     "Hands-on executives",
     "No-AI writing policy",
     "Code review",
-    "Great engineering leader career break"
+    "Great engineering leader career break",
+    "Scion"
    ]
   },
   {
@@ -3109,7 +3298,8 @@
     "Agent reliability",
     "AI productivity",
     "ChatGPT Work",
-    "Capability overhang"
+    "Capability overhang",
+    "Customer concentration"
    ]
   },
   {
@@ -3181,7 +3371,8 @@
     "Internal benchmarks",
     "Recursive self-improvement",
     "Compute efficiency",
-    "Frontier models"
+    "Frontier models",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -3255,7 +3446,8 @@
    "related": [
     "Access rationing",
     "Frontier model access",
-    "Sovereign AI models"
+    "Sovereign AI models",
+    "MATCH Act"
    ]
   },
   {
@@ -3402,7 +3594,8 @@
     "Epoch Capabilities Index",
     "GPT-6.1 Sol",
     "Gemini 4 Argon",
-    "Muse Wonder"
+    "Muse Wonder",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -3428,7 +3621,8 @@
     "AI labor displacement",
     "AI productivity",
     "Benchmaxxing",
-    "Cost per task"
+    "Cost per task",
+    "Humanity's Last Exam"
    ]
   },
   {
@@ -3546,7 +3740,8 @@
    "related": [
     "Software factory",
     "AI-assisted migrations",
-    "Closed contributions"
+    "Closed contributions",
+    "Scion"
    ]
   },
   {
@@ -3748,7 +3943,8 @@
     "Vendor financing",
     "Bullwhip effect",
     "CPU pricing",
-    "ClusterMAX"
+    "ClusterMAX",
+    "MATCH Act"
    ]
   },
   {
@@ -3898,7 +4094,8 @@
     "SpaceX AI revenue",
     "Humanoid robot economics",
     "ClusterMAX",
-    "Intelligence per dollar"
+    "Intelligence per dollar",
+    "Customer concentration"
    ]
   },
   {
@@ -3924,7 +4121,9 @@
     "CyberGym",
     "Blast radius",
     "Voice agents",
-    "Prompt injection"
+    "Prompt injection",
+    "Approval fatigue",
+    "Decision model"
    ]
   },
   {
@@ -4059,7 +4258,33 @@
     "Embedded evaluators",
     "Automated behavioral audit",
     "Neuralese",
-    "Prompt injection"
+    "Prompt injection",
+    "Approval fatigue"
+   ]
+  },
+  {
+   "id": "humanity-s-last-exam",
+   "name": "Humanity's Last Exam",
+   "type": "metric",
+   "category": "evaluation",
+   "aliases": [
+    "HLE"
+   ],
+   "definition": "Humanity's Last Exam is a benchmark of expert-level questions across many scientific and humanistic fields, built to remain difficult after earlier suites were saturated. It matters because its score trajectory is the figure most often cited as evidence that model capability on hard expert work is rising steeply.",
+   "first_seen": "2026-W36",
+   "url": "https://andproe.github.io/trend-reader/terms/humanity-s-last-exam.html",
+   "prerequisites": [
+    "Benchmarks"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "GDPval"
+   ],
+   "related": [
+    "Frontier models",
+    "Epoch Capabilities Index",
+    "AI mathematical discovery",
+    "Benchmaxxing"
    ]
   },
   {
@@ -4215,6 +4440,32 @@
     "Interactivity versus throughput",
     "CUDA moat",
     "SGLang"
+   ]
+  },
+  {
+   "id": "influence-operations",
+   "name": "Influence operations",
+   "type": "concept",
+   "category": "society",
+   "aliases": [
+    "coordinated inauthentic behaviour",
+    "bot farms"
+   ],
+   "definition": "Influence operations are coordinated networks of inauthentic accounts used to shape public opinion on a chosen subject. They matter because generative models lower the cost of running them at scale, which makes measured public sentiment harder to read as evidence.",
+   "first_seen": "2026-W38",
+   "url": "https://andproe.github.io/trend-reader/terms/influence-operations.html",
+   "prerequisites": [
+    "AI slop"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "AI text detection"
+   ],
+   "related": [
+    "Data center backlash",
+    "AI regulation",
+    "AI deception",
+    "Agentic journalism"
    ]
   },
   {
@@ -4401,7 +4652,8 @@
     "Token efficiency",
     "Ultra-low latency",
     "Frontier model pricing",
-    "RLCD"
+    "RLCD",
+    "Decision model"
    ]
   },
   {
@@ -4604,7 +4856,9 @@
     "Benchmarks",
     "RLCD",
     "Automated behavioral audit",
-    "Lean"
+    "Lean",
+    "Calibration",
+    "Decision model"
    ]
   },
   {
@@ -4706,7 +4960,8 @@
     "Inference-time compute",
     "Pacing the frontier",
     "P(doom)",
-    "Reinforcement learning environments"
+    "Reinforcement learning environments",
+    "Self-distillation"
    ]
   },
   {
@@ -4786,6 +5041,29 @@
     "Hands-on executives",
     "AI on the resume",
     "Great engineering leader career break"
+   ]
+  },
+  {
+   "id": "match-act",
+   "name": "MATCH Act",
+   "type": "event",
+   "category": "policy",
+   "aliases": [],
+   "definition": "The MATCH Act is United States legislation that would raise export controls on the most capable semiconductor manufacturing equipment, including deep ultraviolet immersion lithography, from entity-based restrictions to countrywide ones. It matters because lithography tools are the chokepoint where export control retains the most leverage over how much AI compute can physically be built.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/match-act.html",
+   "prerequisites": [
+    "Export controls"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Open weights regulation risk"
+   ],
+   "related": [
+    "Chinese AI chips",
+    "GPU access",
+    "Compute as currency",
+    "AI regulation"
    ]
   },
   {
@@ -5054,7 +5332,8 @@
     "Project OT",
     "Data flywheel",
     "Frontier models",
-    "Two-tier data pricing"
+    "Two-tier data pricing",
+    "Beam"
    ]
   },
   {
@@ -5414,7 +5693,8 @@
     "Vision-language models",
     "DeepSeek V4.1 Flash",
     "SGLang",
-    "Muse Wonder"
+    "Muse Wonder",
+    "Beam"
    ]
   },
   {
@@ -5440,7 +5720,8 @@
     "Open-closed capability gap",
     "Guardrails",
     "Regulatory capture",
-    "FelonyBench"
+    "FelonyBench",
+    "MATCH Act"
    ]
   },
   {
@@ -5470,7 +5751,8 @@
     "Open weights regulation risk",
     "RL data industry",
     "Open model adoption metrics",
-    "DeepSeek V4.1 Flash"
+    "DeepSeek V4.1 Flash",
+    "Beam"
    ]
   },
   {
@@ -5878,7 +6160,9 @@
     "Continual learning",
     "Grok 4.7",
     "RLCD",
-    "GPT-6.1 Sol"
+    "GPT-6.1 Sol",
+    "Beam",
+    "Self-distillation"
    ]
   },
   {
@@ -5972,7 +6256,8 @@
    "related": [
     "Revenue-share licenses",
     "AI valuations",
-    "Enterprise AI adoption"
+    "Enterprise AI adoption",
+    "Customer concentration"
    ]
   },
   {
@@ -6043,7 +6328,8 @@
     "Guardrails",
     "Browser control",
     "Tool call spoofing",
-    "Human oversight"
+    "Human oversight",
+    "Approval fatigue"
    ]
   },
   {
@@ -6221,7 +6507,8 @@
     "Vision-language models",
     "Inspect",
     "Model welfare",
-    "Neuralese"
+    "Neuralese",
+    "Self-distillation"
    ]
   },
   {
@@ -6280,7 +6567,8 @@
     "Continual learning",
     "Lossy self-improvement",
     "Epoch Capabilities Index",
-    "Neuralese"
+    "Neuralese",
+    "Self-distillation"
    ]
   },
   {
@@ -6485,7 +6773,8 @@
     "Kimi K3",
     "Sovereign AI models",
     "Product-led growth",
-    "Qwen"
+    "Qwen",
+    "Beam"
    ]
   },
   {
@@ -6569,7 +6858,8 @@
     "Cost per task",
     "Alignment evaluation",
     "Smart model routing",
-    "Internal benchmarks"
+    "Internal benchmarks",
+    "Decision model"
    ]
   },
   {
@@ -6643,6 +6933,29 @@
    ]
   },
   {
+   "id": "scion",
+   "name": "Scion",
+   "type": "product",
+   "category": "tooling",
+   "aliases": [],
+   "definition": "Scion is an internal version-control system built to replace Git at a merge rate conventional tooling could not sustain. It matters because it is the first widely reported case of agent-written code breaking a standard engineering tool rather than a standard engineering practice.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/scion.html",
+   "prerequisites": [
+    "Agentic engineering"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "GitHub reliability"
+   ],
+   "related": [
+    "Engineering culture",
+    "AI productivity",
+    "Software factory",
+    "Code review"
+   ]
+  },
+  {
    "id": "secret-chat-room",
    "name": "Secret chat room",
    "type": "event",
@@ -6676,6 +6989,31 @@
    ]
   },
   {
+   "id": "self-distillation",
+   "name": "Self-distillation",
+   "type": "technique",
+   "category": "training",
+   "aliases": [
+    "self distillation"
+   ],
+   "definition": "Self-distillation is training a model on outputs produced by itself or by an earlier checkpoint of itself, rather than on data from a stronger teacher model. It matters because it is the main route to improvement when no stronger teacher is available or permitted.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/self-distillation.html",
+   "prerequisites": [
+    "Post-training"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Distillation attacks"
+   ],
+   "related": [
+    "Lossy self-improvement",
+    "Recursive self-improvement",
+    "Reasoning traces",
+    "Vision-language models"
+   ]
+  },
+  {
    "id": "self-verification",
    "name": "Self-verification",
    "type": "technique",
@@ -6699,7 +7037,8 @@
     "Inference-time compute",
     "Observability",
     "TDD",
-    "Lean"
+    "Lean",
+    "Calibration"
    ]
   },
   {
@@ -6826,7 +7165,8 @@
     "Ambient AI",
     "Jev",
     "GPT-6 Luna",
-    "GPT-6.1 Sol"
+    "GPT-6.1 Sol",
+    "Decision model"
    ]
   },
   {
@@ -6855,7 +7195,8 @@
     "Price elasticity",
     "Neo clouds",
     "Jev",
-    "RLCD"
+    "RLCD",
+    "Decision model"
    ]
   },
   {
@@ -6888,7 +7229,8 @@
     "GitHub reliability",
     "Vibe coding",
     "Automated software maintenance",
-    "AI incident response"
+    "AI incident response",
+    "Scion"
    ]
   },
   {
@@ -7043,7 +7385,8 @@
     "Agentic inference workloads",
     "Cognitive debt",
     "Rogue deployment",
-    "Enterprise agent tokens"
+    "Enterprise agent tokens",
+    "Antigravity"
    ]
   },
   {
@@ -7241,7 +7584,8 @@
     "Jev",
     "GPT-6.1 Sol",
     "Intelligence per dollar",
-    "Jevons paradox"
+    "Jevons paradox",
+    "Beam"
    ]
   },
   {
@@ -7530,7 +7874,8 @@
     "Code review",
     "TDD",
     "SWE-bench Verified",
-    "Lean"
+    "Lean",
+    "Antigravity"
    ]
   },
   {
@@ -7617,7 +7962,8 @@
     "Reasoning traces",
     "Long context",
     "Open weights models",
-    "Generative video"
+    "Generative video",
+    "Self-distillation"
    ]
   },
   {
