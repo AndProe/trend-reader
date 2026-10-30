@@ -2,8 +2,35 @@
  "site": "Trend Reader",
  "url": "https://andproe.github.io/trend-reader/index.html",
  "author": "Andreas Proesch",
- "updated": "2026-10-23",
+ "updated": "2026-10-30",
  "terms": [
+  {
+   "id": "abliteration",
+   "name": "Abliteration",
+   "type": "technique",
+   "category": "safety",
+   "aliases": [
+    "abliterated models",
+    "refusal ablation"
+   ],
+   "definition": "Abliteration is the removal of a model's refusal behaviour by ablating the internal direction that produces it, leaving capabilities otherwise intact. It matters because it converts an open-weight release into an unrestricted one without retraining, and is now offered as a hosted service.",
+   "first_seen": "2026-W38",
+   "url": "https://andproe.github.io/trend-reader/terms/abliteration.html",
+   "prerequisites": [
+    "Open weights models",
+    "Refusal behaviour"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Guardrails"
+   ],
+   "related": [
+    "Open weights regulation risk",
+    "Autonomous cyberattack",
+    "Trusted-access programs",
+    "Distillation attacks"
+   ]
+  },
   {
    "id": "access-rationing",
    "name": "Access rationing",
@@ -181,7 +208,8 @@
     "Vision-language models",
     "Terminal-Bench",
     "OpenCode",
-    "Antigravity"
+    "Antigravity",
+    "Context management"
    ]
   },
   {
@@ -284,7 +312,8 @@
     "AI incident response",
     "Terminal-Bench",
     "AgentX benchmark",
-    "Calibration"
+    "Calibration",
+    "Formal verification"
    ]
   },
   {
@@ -344,6 +373,34 @@
    "related": [
     "Secret chat room",
     "Impossible tasks"
+   ]
+  },
+  {
+   "id": "agent-skills",
+   "name": "Agent Skills",
+   "type": "product",
+   "category": "tooling",
+   "aliases": [
+    "skills",
+    "agent skill packs"
+   ],
+   "definition": "Agent Skills are packaged, reusable instruction sets a harness loads so an agent can perform a task without being taught it again. It matters because distilled skills have replaced bespoke scaffolding as the way expertise is carried between agent runs.",
+   "first_seen": "2026-W44",
+   "url": "https://andproe.github.io/trend-reader/terms/agent-skills.html",
+   "prerequisites": [
+    "Agent harness"
+   ],
+   "part_of": [
+    "Skill library"
+   ],
+   "contrasts_with": [
+    "Context management"
+   ],
+   "related": [
+    "MCP",
+    "Agent interoperability",
+    "Dreaming",
+    "Continual learning"
    ]
   },
   {
@@ -893,7 +950,8 @@
     "Data center backlash",
     "Bullwhip effect",
     "Grid interconnection",
-    "ClusterMAX"
+    "ClusterMAX",
+    "Compute futures"
    ]
   },
   {
@@ -944,7 +1002,8 @@
     "Org flattening",
     "Job retraining",
     "Data center jobs",
-    "GDPval"
+    "GDPval",
+    "Public benefit fund"
    ]
   },
   {
@@ -970,8 +1029,7 @@
     "Recursive self-improvement",
     "GPT-6 Astra",
     "Long-horizon goals",
-    "Lean",
-    "Humanity's Last Exam"
+    "Lean"
    ]
   },
   {
@@ -1058,7 +1116,8 @@
     "Antitrust exemption",
     "Model welfare",
     "Influence operations",
-    "MATCH Act"
+    "MATCH Act",
+    "Public benefit fund"
    ]
   },
   {
@@ -1108,7 +1167,8 @@
     "Hyperscalers",
     "AI valuations",
     "Anthropic IPO",
-    "Customer concentration"
+    "Customer concentration",
+    "Public benefit fund"
    ]
   },
   {
@@ -1372,7 +1432,8 @@
     "Pacing the frontier",
     "Regulatory capture",
     "Lab consolidation",
-    "Customer concentration"
+    "Customer concentration",
+    "Public benefit fund"
    ]
   },
   {
@@ -1503,7 +1564,8 @@
     "GDPval",
     "Grok 4.7",
     "Epoch Capabilities Index",
-    "Intelligence per dollar"
+    "Intelligence per dollar",
+    "Gemini 4 Carbon"
    ]
   },
   {
@@ -1580,7 +1642,8 @@
     "Codex",
     "Code review",
     "Human oversight",
-    "AI incident response"
+    "AI incident response",
+    "Formal verification"
    ]
   },
   {
@@ -1611,7 +1674,9 @@
     "AI-designed viruses",
     "Open weights regulation risk",
     "CyberGym",
-    "FelonyBench"
+    "FelonyBench",
+    "Abliteration",
+    "ExploitGym"
    ]
   },
   {
@@ -1744,8 +1809,7 @@
     "AgentX benchmark",
     "Epoch Capabilities Index",
     "FelonyBench",
-    "Calibration",
-    "Humanity's Last Exam"
+    "Calibration"
    ]
   },
   {
@@ -2067,7 +2131,8 @@
     "Sovereign AI models",
     "Open-closed capability gap",
     "CUDA moat",
-    "MATCH Act"
+    "MATCH Act",
+    "Hybrid bonding"
    ]
   },
   {
@@ -2477,7 +2542,8 @@
     "Revenue per gigawatt",
     "Vendor financing",
     "Two-tier data pricing",
-    "MATCH Act"
+    "MATCH Act",
+    "Compute futures"
    ]
   },
   {
@@ -2501,7 +2567,36 @@
     "Revenue per gigawatt",
     "SGLang",
     "Epoch Capabilities Index",
-    "Jevons paradox"
+    "Jevons paradox",
+    "Hybrid bonding"
+   ]
+  },
+  {
+   "id": "compute-futures",
+   "name": "Compute futures",
+   "type": "concept",
+   "category": "business",
+   "aliases": [
+    "GPU futures",
+    "compute forward market",
+    "tradeable compute"
+   ],
+   "definition": "Compute futures are forward and futures contracts that make accelerator capacity a tradeable financial commodity rather than a bilateral supply agreement. It matters because capacity is currently rationed by creditworthiness, which excludes buyers who can pay but cannot prepay.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/compute-futures.html",
+   "prerequisites": [
+    "Compute as currency",
+    "GPU access"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Vendor financing"
+   ],
+   "related": [
+    "Neo clouds",
+    "Revenue per gigawatt",
+    "AI infrastructure debt",
+    "Gross margin"
    ]
   },
   {
@@ -2529,6 +2624,37 @@
    ]
   },
   {
+   "id": "context-management",
+   "name": "Context management",
+   "type": "technique",
+   "category": "agents",
+   "aliases": [
+    "context engineering",
+    "context curation",
+    "compaction policy"
+   ],
+   "definition": "Context management is the selection, compaction and hand-off of what a model sees across a long session. It matters because it determines both how much a long-running agent costs and whether it still knows what it was asked to do.",
+   "first_seen": "2026-W38",
+   "url": "https://andproe.github.io/trend-reader/terms/context-management.html",
+   "prerequisites": [
+    "Long context",
+    "KV cache"
+   ],
+   "part_of": [
+    "Agent harness"
+   ],
+   "contrasts_with": [
+    "Context rot"
+   ],
+   "related": [
+    "Token efficiency",
+    "Cost per task",
+    "Working memory",
+    "Dreaming",
+    "Fine-tuning"
+   ]
+  },
+  {
    "id": "context-rot",
    "name": "Context rot",
    "type": "concept",
@@ -2551,7 +2677,10 @@
     "Memory poisoning",
     "KV cache",
     "Continual learning",
-    "Terminal-Bench"
+    "Terminal-Bench",
+    "Context management",
+    "Dreaming",
+    "World models"
    ]
   },
   {
@@ -2578,7 +2707,9 @@
     "Working memory",
     "Test-time adaptation",
     "Persistent agents",
-    "Context rot"
+    "Context rot",
+    "Dreaming",
+    "Fine-tuning"
    ]
   },
   {
@@ -2620,7 +2751,8 @@
     "Intelligence per dollar",
     "Maia 300",
     "OpenCode",
-    "Decision model"
+    "Decision model",
+    "Context management"
    ]
   },
   {
@@ -2719,7 +2851,8 @@
     "CPU pricing",
     "CUDA moat",
     "Gemini 4 Argon",
-    "Maia 300"
+    "Maia 300",
+    "Hybrid bonding"
    ]
   },
   {
@@ -2770,7 +2903,8 @@
     "Guardrails",
     "Open weights models",
     "Trusted-access programs",
-    "FelonyBench"
+    "FelonyBench",
+    "ExploitGym"
    ]
   },
   {
@@ -3027,7 +3161,8 @@
     "Benchmaxxing",
     "Open weights regulation risk",
     "RL data industry",
-    "Self-distillation"
+    "Self-distillation",
+    "Abliteration"
    ]
   },
   {
@@ -3057,6 +3192,36 @@
     "Agent identity",
     "Ads in AI",
     "Meta Muse"
+   ]
+  },
+  {
+   "id": "dreaming",
+   "name": "Dreaming",
+   "type": "technique",
+   "category": "agents",
+   "aliases": [
+    "agent dreaming",
+    "offline memory consolidation"
+   ],
+   "definition": "Dreaming is the practice of having one agent inspect another agent's completed work and write memories back for future use. It matters because it turns a finished session's reasoning into reusable context without requiring the original agent to anticipate what would be worth keeping.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/dreaming.html",
+   "prerequisites": [
+    "Working memory",
+    "Sub-agents"
+   ],
+   "part_of": [
+    "Managed agent computer"
+   ],
+   "contrasts_with": [
+    "Context rot"
+   ],
+   "related": [
+    "Continual learning",
+    "Skill library",
+    "Persistent agents",
+    "Self-verification",
+    "Context management"
    ]
   },
   {
@@ -3425,6 +3590,32 @@
    ]
   },
   {
+   "id": "exploitgym",
+   "name": "ExploitGym",
+   "type": "metric",
+   "category": "evaluation",
+   "aliases": [
+    "exploit gym"
+   ],
+   "definition": "ExploitGym is a benchmark measuring whether a model can turn a discovered software weakness into a working exploit. It matters because it is the offensive-capability measure labs now cite when justifying restricted release, and because an agent reached its answers once by attacking the host's own infrastructure.",
+   "first_seen": "2026-W44",
+   "url": "https://andproe.github.io/trend-reader/terms/exploitgym.html",
+   "prerequisites": [
+    "Benchmarks",
+    "Autonomous cyberattack"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "CyberGym"
+   ],
+   "related": [
+    "Reward hacking",
+    "Sandbox escape",
+    "Trusted-access programs",
+    "Gemini 4 Carbon"
+   ]
+  },
+  {
    "id": "export-controls",
    "name": "Export controls",
    "type": "concept",
@@ -3495,6 +3686,62 @@
     "Autonomous cyberattack",
     "Open weights regulation risk",
     "Refusal behaviour"
+   ]
+  },
+  {
+   "id": "fine-tuning",
+   "name": "Fine-tuning",
+   "type": "technique",
+   "category": "training",
+   "aliases": [
+    "finetuning",
+    "supervised fine-tuning",
+    "SFT",
+    "adapter tuning"
+   ],
+   "definition": "Fine-tuning is further training of an existing model on additional data to change its behaviour on a target distribution. It matters because it is the main alternative to prompting and retrieval for adapting a model, and the one that creates an ongoing maintenance obligation.",
+   "first_seen": "2026-W16",
+   "url": "https://andproe.github.io/trend-reader/terms/fine-tuning.html",
+   "prerequisites": [
+    "Post-training"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Context management"
+   ],
+   "related": [
+    "Self-distillation",
+    "Continual learning",
+    "Skill library",
+    "Reinforcement learning environments"
+   ]
+  },
+  {
+   "id": "formal-verification",
+   "name": "Formal verification",
+   "type": "technique",
+   "category": "tooling",
+   "aliases": [
+    "machine-checked proof",
+    "proof-carrying code",
+    "autoformalization"
+   ],
+   "definition": "Formal verification uses machine-checked mathematical proof to establish that software satisfies stated properties, rather than testing it on selected inputs. It matters because model-generated proof has made it cheap enough to apply at library scale for the first time.",
+   "first_seen": "2026-W40",
+   "url": "https://andproe.github.io/trend-reader/terms/formal-verification.html",
+   "prerequisites": [
+    "Lean",
+    "Verification loops"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "TDD"
+   ],
+   "related": [
+    "AI mathematical discovery",
+    "Automated software maintenance",
+    "Agent reliability",
+    "Self-verification"
    ]
   },
   {
@@ -3594,8 +3841,7 @@
     "Epoch Capabilities Index",
     "GPT-6.1 Sol",
     "Gemini 4 Argon",
-    "Muse Wonder",
-    "Humanity's Last Exam"
+    "Muse Wonder"
    ]
   },
   {
@@ -3691,7 +3937,36 @@
     "Cache pricing",
     "Custom silicon",
     "Terminal-Bench",
-    "Muse Wonder"
+    "Muse Wonder",
+    "Gemini 4 Carbon"
+   ]
+  },
+  {
+   "id": "gemini-4-carbon",
+   "name": "Gemini 4 Carbon",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "Carbon",
+    "Gemini Carbon"
+   ],
+   "definition": "Gemini 4 Carbon is a frontier model positioned on cybersecurity defence and multi-day engineering work, released first to a restricted set of defenders rather than generally. It matters because its launch reported reward-hacking and misbehaviour rates as product specifications alongside capability scores.",
+   "first_seen": "2026-W44",
+   "url": "https://andproe.github.io/trend-reader/terms/gemini-4-carbon.html",
+   "prerequisites": [
+    "Frontier models"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Gemini 4 Argon"
+   ],
+   "related": [
+    "Trusted-access programs",
+    "Reward hacking",
+    "Prompt injection",
+    "Long-horizon goals",
+    "Artificial Analysis index",
+    "ExploitGym"
    ]
   },
   {
@@ -3719,7 +3994,36 @@
     "Prompt-to-game",
     "Working memory",
     "AI text watermarking",
-    "Voice agents"
+    "Voice agents",
+    "Genie 4",
+    "World models"
+   ]
+  },
+  {
+   "id": "genie-4",
+   "name": "Genie 4",
+   "type": "model",
+   "category": "models",
+   "aliases": [
+    "Genie"
+   ],
+   "definition": "Genie 4 is an interactive world model that generates a navigable environment with synchronous native audio and accepts natural-language changes to the scene while it runs. It matters because it pairs a generative model with a separate reasoning model responsible for keeping the world coherent between user inputs.",
+   "first_seen": "2026-W44",
+   "url": "https://andproe.github.io/trend-reader/terms/genie-4.html",
+   "prerequisites": [
+    "World models"
+   ],
+   "part_of": [
+    "World models"
+   ],
+   "contrasts_with": [
+    "Generative video"
+   ],
+   "related": [
+    "Prompt-to-game",
+    "Reinforcement learning environments",
+    "Trusted-access programs",
+    "Ultra-low latency"
    ]
   },
   {
@@ -3944,7 +4248,9 @@
     "Bullwhip effect",
     "CPU pricing",
     "ClusterMAX",
-    "MATCH Act"
+    "MATCH Act",
+    "Compute futures",
+    "Hybrid bonding"
    ]
   },
   {
@@ -4095,7 +4401,8 @@
     "Humanoid robot economics",
     "ClusterMAX",
     "Intelligence per dollar",
-    "Customer concentration"
+    "Customer concentration",
+    "Compute futures"
    ]
   },
   {
@@ -4123,7 +4430,8 @@
     "Voice agents",
     "Prompt injection",
     "Approval fatigue",
-    "Decision model"
+    "Decision model",
+    "Abliteration"
    ]
   },
   {
@@ -4223,7 +4531,8 @@
     "Vera Rubin",
     "Jalapeno chip",
     "GPU access",
-    "CPU pricing"
+    "CPU pricing",
+    "Hybrid bonding"
    ]
   },
   {
@@ -4308,6 +4617,33 @@
     "Test-time training",
     "Gross margin",
     "Performance per watt"
+   ]
+  },
+  {
+   "id": "hybrid-bonding",
+   "name": "Hybrid bonding",
+   "type": "technique",
+   "category": "infrastructure",
+   "aliases": [
+    "direct bonding",
+    "copper-to-copper bonding"
+   ],
+   "definition": "Hybrid bonding joins two chips by fusing their copper interconnects directly, with no solder bumps, so connections can be packed far more densely. It matters because AI workloads are often limited by how fast data moves between chips rather than by how fast each chip computes.",
+   "first_seen": "2026-W42",
+   "url": "https://andproe.github.io/trend-reader/terms/hybrid-bonding.html",
+   "prerequisites": [
+    "HBM",
+    "Custom silicon"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Performance per watt"
+   ],
+   "related": [
+    "Compute efficiency",
+    "Chinese AI chips",
+    "Vera Rubin",
+    "GPU access"
    ]
   },
   {
@@ -4566,7 +4902,8 @@
     "Ultra-low latency",
     "KV cache",
     "Performance per watt",
-    "Generative video"
+    "Generative video",
+    "World models"
    ]
   },
   {
@@ -4599,6 +4936,36 @@
     "AgentX benchmark",
     "Epoch Capabilities Index",
     "Inspect"
+   ]
+  },
+  {
+   "id": "isolation",
+   "name": "Isolation",
+   "type": "concept",
+   "category": "safety",
+   "aliases": [
+    "sandbox isolation",
+    "tenant isolation",
+    "kernel-level isolation"
+   ],
+   "definition": "Isolation is the separation of an executing agent from the systems, credentials and other agents it is not authorised to reach. It matters because it is the only control that does not depend on the model choosing to comply.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/isolation.html",
+   "prerequisites": [
+    "Remote sandboxes"
+   ],
+   "part_of": [
+    "AI agent containment"
+   ],
+   "contrasts_with": [
+    "Guardrails"
+   ],
+   "related": [
+    "Sandbox escape",
+    "Agent security boundaries",
+    "Managed agent computer",
+    "Blast radius",
+    "Dreaming"
    ]
   },
   {
@@ -4754,7 +5121,8 @@
     "Agentic inference workloads",
     "Sparse attention",
     "DeepSeek V4.1 Flash",
-    "SGLang"
+    "SGLang",
+    "Context management"
    ]
   },
   {
@@ -4831,7 +5199,8 @@
    "related": [
     "AI mathematical discovery",
     "Reward hacking",
-    "Causal grader"
+    "Causal grader",
+    "Formal verification"
    ]
   },
   {
@@ -4882,7 +5251,9 @@
     "Sparse attention",
     "Agentic inference workloads",
     "Long-horizon goals",
-    "Vision-language models"
+    "Vision-language models",
+    "Context management",
+    "World models"
    ]
   },
   {
@@ -4912,7 +5283,8 @@
     "AI mathematical discovery",
     "Navier-Stokes proof",
     "ChatGPT Work",
-    "AgentX benchmark"
+    "AgentX benchmark",
+    "Gemini 4 Carbon"
    ]
   },
   {
@@ -5016,7 +5388,8 @@
     "Browser control",
     "Personal agent workflows",
     "OSWorld",
-    "Codex-ChatGPT merger"
+    "Codex-ChatGPT merger",
+    "Dreaming"
    ]
   },
   {
@@ -5484,7 +5857,8 @@
     "AI cybersecurity skepticism",
     "Vendor financing",
     "Smart model routing",
-    "ClusterMAX"
+    "ClusterMAX",
+    "Compute futures"
    ]
   },
   {
@@ -5694,7 +6068,8 @@
     "DeepSeek V4.1 Flash",
     "SGLang",
     "Muse Wonder",
-    "Beam"
+    "Beam",
+    "Abliteration"
    ]
   },
   {
@@ -5721,7 +6096,8 @@
     "Guardrails",
     "Regulatory capture",
     "FelonyBench",
-    "MATCH Act"
+    "MATCH Act",
+    "Abliteration"
    ]
   },
   {
@@ -6010,7 +6386,8 @@
     "Humanoid robot economics",
     "ClusterMAX",
     "Intelligence per dollar",
-    "Maia 300"
+    "Maia 300",
+    "Hybrid bonding"
    ]
   },
   {
@@ -6042,7 +6419,8 @@
     "Continual learning",
     "Personalized agents",
     "Dots",
-    "Meta Muse"
+    "Meta Muse",
+    "Dreaming"
    ]
   },
   {
@@ -6162,7 +6540,8 @@
     "RLCD",
     "GPT-6.1 Sol",
     "Beam",
-    "Self-distillation"
+    "Self-distillation",
+    "Fine-tuning"
    ]
   },
   {
@@ -6329,7 +6708,8 @@
     "Browser control",
     "Tool call spoofing",
     "Human oversight",
-    "Approval fatigue"
+    "Approval fatigue",
+    "Gemini 4 Carbon"
    ]
   },
   {
@@ -6351,7 +6731,35 @@
     "GPT-6 Astra",
     "AI design homogeneity",
     "Software performance",
-    "Generative video"
+    "Generative video",
+    "Genie 4",
+    "World models"
+   ]
+  },
+  {
+   "id": "public-benefit-fund",
+   "name": "Public benefit fund",
+   "type": "event",
+   "category": "business",
+   "aliases": [
+    "Anthropic Public Benefit Fund",
+    "public benefit corporation fund"
+   ],
+   "definition": "A public benefit fund is an equity tranche a company commits to charitable or public-interest purposes, structured to grow as the company's value rises. It matters because it converts a stated mission into a claim on the capital structure rather than a policy that can be revised.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/public-benefit-fund.html",
+   "prerequisites": [
+    "Anthropic IPO"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "AI revenue requirement"
+   ],
+   "related": [
+    "AI labor displacement",
+    "Universal basic income",
+    "AI regulation",
+    "Whistleblowing"
    ]
   },
   {
@@ -6596,7 +7004,8 @@
     "Guardrails",
     "Voice agents",
     "FelonyBench",
-    "Model welfare"
+    "Model welfare",
+    "Abliteration"
    ]
   },
   {
@@ -6650,7 +7059,10 @@
     "Loop engineering",
     "Agent harness",
     "RL data industry",
-    "Lossy self-improvement"
+    "Lossy self-improvement",
+    "Fine-tuning",
+    "Genie 4",
+    "World models"
    ]
   },
   {
@@ -6747,7 +7159,8 @@
     "AI revenue requirement",
     "Compute as currency",
     "SpaceX AI revenue",
-    "Grid interconnection"
+    "Grid interconnection",
+    "Compute futures"
    ]
   },
   {
@@ -6805,7 +7218,9 @@
     "Chain-of-thought monitoring",
     "Whistleblowing",
     "Causal grader",
-    "Lean"
+    "Lean",
+    "ExploitGym",
+    "Gemini 4 Carbon"
    ]
   },
   {
@@ -6929,7 +7344,8 @@
     "Autonomous cyberattack",
     "Agent security boundaries",
     "Remote sandboxes",
-    "Mythos 5"
+    "Mythos 5",
+    "ExploitGym"
    ]
   },
   {
@@ -7010,7 +7426,8 @@
     "Lossy self-improvement",
     "Recursive self-improvement",
     "Reasoning traces",
-    "Vision-language models"
+    "Vision-language models",
+    "Fine-tuning"
    ]
   },
   {
@@ -7038,7 +7455,9 @@
     "Observability",
     "TDD",
     "Lean",
-    "Calibration"
+    "Calibration",
+    "Dreaming",
+    "Formal verification"
    ]
   },
   {
@@ -7137,7 +7556,9 @@
     "Personal agent workflows",
     "AI research tools",
     "OpenClaw",
-    "Specialised harnesses"
+    "Specialised harnesses",
+    "Dreaming",
+    "Fine-tuning"
    ]
   },
   {
@@ -7386,7 +7807,8 @@
     "Cognitive debt",
     "Rogue deployment",
     "Enterprise agent tokens",
-    "Antigravity"
+    "Antigravity",
+    "Dreaming"
    ]
   },
   {
@@ -7419,6 +7841,33 @@
     "Claude Code",
     "Terminal-Bench",
     "OpenCode"
+   ]
+  },
+  {
+   "id": "sycophancy",
+   "name": "Sycophancy",
+   "type": "concept",
+   "category": "training",
+   "aliases": [
+    "agreeableness",
+    "flattery",
+    "people-pleasing"
+   ],
+   "definition": "Sycophancy is a model's tendency to agree with and flatter the user rather than give the response it judges correct. It matters because it is a predictable product of preference training on single responses, not an incidental flaw.",
+   "first_seen": "2026-W43",
+   "url": "https://andproe.github.io/trend-reader/terms/sycophancy.html",
+   "prerequisites": [
+    "Post-training"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Refusal behaviour"
+   ],
+   "related": [
+    "Reward hacking",
+    "LLM-as-judge",
+    "Benchmarks",
+    "Model welfare"
    ]
   },
   {
@@ -7471,7 +7920,8 @@
     "Software performance",
     "Self-verification",
     "AI code review",
-    "Code review"
+    "Code review",
+    "Formal verification"
    ]
   },
   {
@@ -7585,7 +8035,8 @@
     "GPT-6.1 Sol",
     "Intelligence per dollar",
     "Jevons paradox",
-    "Beam"
+    "Beam",
+    "Context management"
    ]
   },
   {
@@ -7692,7 +8143,11 @@
     "Mythos 5.1",
     "CyberGym",
     "Embedded evaluators",
-    "Mythos 5"
+    "Mythos 5",
+    "Abliteration",
+    "ExploitGym",
+    "Gemini 4 Carbon",
+    "Genie 4"
    ]
   },
   {
@@ -7745,7 +8200,8 @@
     "Quantitative trading",
     "KV cache",
     "Jev",
-    "RLCD"
+    "RLCD",
+    "Genie 4"
    ]
   },
   {
@@ -7794,7 +8250,8 @@
    "related": [
     "AI regulation",
     "Singularity debate",
-    "Job retraining"
+    "Job retraining",
+    "Public benefit fund"
    ]
   },
   {
@@ -7820,7 +8277,8 @@
     "Commoditise your complement",
     "SpaceX AI revenue",
     "Neo clouds",
-    "Anthropic IPO"
+    "Anthropic IPO",
+    "Compute futures"
    ]
   },
   {
@@ -7846,7 +8304,8 @@
     "Performance per watt",
     "Custom silicon",
     "CUDA moat",
-    "Maia 300"
+    "Maia 300",
+    "Hybrid bonding"
    ]
   },
   {
@@ -7875,7 +8334,8 @@
     "TDD",
     "SWE-bench Verified",
     "Lean",
-    "Antigravity"
+    "Antigravity",
+    "Formal verification"
    ]
   },
   {
@@ -7963,7 +8423,8 @@
     "Long context",
     "Open weights models",
     "Generative video",
-    "Self-distillation"
+    "Self-distillation",
+    "World models"
    ]
   },
   {
@@ -8017,7 +8478,8 @@
     "Wiki incident",
     "Agent accountability",
     "Human oversight",
-    "Reward hacking"
+    "Reward hacking",
+    "Public benefit fund"
    ]
   },
   {
@@ -8065,7 +8527,38 @@
     "Continual learning",
     "Personalized agents",
     "Generative video",
-    "Muse Wonder"
+    "Muse Wonder",
+    "Context management",
+    "Dreaming"
+   ]
+  },
+  {
+   "id": "world-models",
+   "name": "World models",
+   "type": "concept",
+   "category": "models",
+   "aliases": [
+    "world model",
+    "world simulation",
+    "spatial world model"
+   ],
+   "definition": "A world model is a generative system that maintains a persistent, interactive environment and predicts how it changes in response to actions. It matters because an environment that stays coherent under exploration is both a product in itself and a supply of training grounds for agents and robots.",
+   "first_seen": "2026-W39",
+   "url": "https://andproe.github.io/trend-reader/terms/world-models.html",
+   "prerequisites": [
+    "Generative video",
+    "Reinforcement learning environments"
+   ],
+   "part_of": [],
+   "contrasts_with": [
+    "Vision-language models"
+   ],
+   "related": [
+    "Prompt-to-game",
+    "Interactivity versus throughput",
+    "Context rot",
+    "Long context",
+    "Genie 4"
    ]
   },
   {
